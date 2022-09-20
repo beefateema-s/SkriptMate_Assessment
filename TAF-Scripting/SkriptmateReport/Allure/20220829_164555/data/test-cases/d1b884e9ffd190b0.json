@@ -1,0 +1,110 @@
+{
+  "uid" : "d1b884e9ffd190b0",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "6ce46033505b144a6d7b7724cfd95a0e",
+  "time" : {
+    "start" : 1661771717178,
+    "stop" : 1661771755292,
+    "duration" : 38114
+  },
+  "status" : "failed",
+  "statusMessage" : "expected [415] but found [201]",
+  "statusTrace" : "java.lang.AssertionError: expected [415] but found [201]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:652)\r\n\tat org.testng.Assert.assertEquals(Assert.java:662)\r\n\tat com.scripted.api.RestAssuredWrapper.valResponseCode(RestAssuredWrapper.java:228)\r\n\tat com.scripted.apistepdefs.stepdefinitions.i_should_get_response_code_something(stepdefinitions.java:149)\r\n\tat ✽.I should get response code 201(file:Features/Webservices/SampleAllRestApi.feature:23)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1661771716632,
+      "stop" : 1661771716890,
+      "duration" : 258
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1661771755322,
+      "stop" : 1661771755432,
+      "duration" : 110
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "10012@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Sample urlencoded POST method API test\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"running all api tests\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d1b884e9ffd190b0.json",
+  "parameterValues" : [ "\"Sample urlencoded POST method API test\"", "\"running all api tests\"" ]
+}

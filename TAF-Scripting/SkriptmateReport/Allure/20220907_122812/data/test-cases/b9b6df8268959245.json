@@ -1,0 +1,104 @@
+{
+  "uid" : "b9b6df8268959245",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "9e87640a2f0650c33c100db4e804caa2",
+  "time" : {
+    "start" : 1662533738428,
+    "stop" : 1662533892411,
+    "duration" : 153983
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1662533738037,
+      "stop" : 1662533738218,
+      "duration" : 181
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1662533892424,
+      "stop" : 1662533892508,
+      "duration" : 84
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "12748@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"User is able to purchase items successfully\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Successful Purchase\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9b6df8268959245.json",
+  "parameterValues" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+}

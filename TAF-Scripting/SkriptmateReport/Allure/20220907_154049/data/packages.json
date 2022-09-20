@@ -1,0 +1,89 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.WebTestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "802cfc0556841102",
+      "parentUid" : "6ab7c2200dcccf8a0ae254c65b2da055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662545251533,
+        "stop" : 1662545412334,
+        "duration" : 160801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "5eab7906cc87a96",
+      "parentUid" : "6ab7c2200dcccf8a0ae254c65b2da055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662545412350,
+        "stop" : 1662545449486,
+        "duration" : 37136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+    } ],
+    "uid" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "Features.Web.SauceLab",
+    "children" : [ {
+      "name" : "Successful Purchase",
+      "children" : [ {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "2c1e05736aad259a",
+        "parentUid" : "e8379492e219922d0897292e74781d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662545251837,
+          "stop" : 1662545412084,
+          "duration" : 160247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      } ],
+      "uid" : "e8379492e219922d0897292e74781d49"
+    }, {
+      "name" : "Unsuccessful Login",
+      "children" : [ {
+        "name" : "User is unable to login successfully",
+        "uid" : "df2e0e6bb51b6252",
+        "parentUid" : "6444c2c6709e3bdac8838ad34d023fab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662545412352,
+          "stop" : 1662545449468,
+          "duration" : 37116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      } ],
+      "uid" : "6444c2c6709e3bdac8838ad34d023fab"
+    } ],
+    "uid" : "Features.Web.SauceLab"
+  } ]
+}

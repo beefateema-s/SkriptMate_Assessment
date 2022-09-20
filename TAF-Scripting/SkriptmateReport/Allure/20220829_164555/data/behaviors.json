@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "d1b884e9ffd190b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1661771717178,
+      "stop" : 1661771755292,
+      "duration" : 38114
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample urlencoded POST method API test\"", "\"running all api tests\"" ]
+  }, {
+    "name" : "running all api tests",
+    "children" : [ {
+      "name" : "Sample urlencoded POST method API test",
+      "children" : [ {
+        "name" : "Sample urlencoded POST method API test",
+        "uid" : "fdfa2feffd66e46",
+        "parentUid" : "ccc951e071281bc0ed365f8a13b34171",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661771717642,
+          "stop" : 1661771755182,
+          "duration" : 37540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccc951e071281bc0ed365f8a13b34171"
+    } ],
+    "uid" : "88cbc6f3776533af595091e6bde3ec99"
+  } ]
+}

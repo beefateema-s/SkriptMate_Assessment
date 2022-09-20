@@ -1,0 +1,187 @@
+{
+  "uid" : "1c05143377c7a221",
+  "name" : "Sample POST method API test",
+  "fullName" : "Sample GET method API test: Sample POST method API test",
+  "historyId" : "f655c1a0451ec035e4db555f8a717a8e",
+  "time" : {
+    "start" : 1661755073640,
+    "stop" : 1661755074345,
+    "duration" : 705
+  },
+  "status" : "failed",
+  "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:110)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:111)\r\n\tat ✽.I send a \"Post\" Request with \"SamplePOSTApi\" and \"PostApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:12)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1661755073642,
+      "stop" : 1661755074247,
+      "duration" : 605
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+    "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:110)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:111)\r\n\tat ✽.I send a \"Post\" Request with \"SamplePOSTApi\" and \"PostApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:12)\r\n",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Post\" API",
+      "time" : {
+        "start" : 1661755074249,
+        "stop" : 1661755074255,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I send a \"Post\" Request with \"SamplePOSTApi\" and \"PostApiJsonReq\"",
+      "time" : {
+        "start" : 1661755074256,
+        "stop" : 1661755074324,
+        "duration" : 68
+      },
+      "status" : "failed",
+      "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:110)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:111)\r\n\tat ✽.I send a \"Post\" Request with \"SamplePOSTApi\" and \"PostApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:12)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then  I should get response code 201",
+      "time" : {
+        "start" : 1661755074325,
+        "stop" : 1661755074325,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1661755074325,
+        "stop" : 1661755074340,
+        "duration" : 15
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "578077c23328a08e",
+        "name" : "Data table",
+        "source" : "578077c23328a08e.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1661755074341,
+      "stop" : 1661755074343,
+      "duration" : 2
+    },
+    "status" : "broken",
+    "statusMessage" : "After is failed: Cannot invoke \"io.restassured.response.Response.asString()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+    "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"io.restassured.response.Response.asString()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null\r\n\tat com.scripted.api.RestAssuredWrapper.convertFileToByte(RestAssuredWrapper.java:348)\r\n\tat com.scripted.apistepdefs.stepdefinitions.afterScenario(stepdefinitions.java:86)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:69)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TestPost"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "992@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "story",
+    "value" : "Sample POST method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Sample GET method API test"
+  }, {
+    "name" : "suite",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample POST method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "TestPost" ]
+  },
+  "source" : "1c05143377c7a221.json",
+  "parameterValues" : [ ]
+}

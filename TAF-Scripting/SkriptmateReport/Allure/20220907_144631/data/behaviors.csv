@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Successful Purchase","User is able to purchase items successfully","1","0","0","0","0"
+"","","","1","1","0","0","0"
+"","Unsuccessful Login","User is unable to login successfully","0","1","0","0","0"

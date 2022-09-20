@@ -1,0 +1,212 @@
+{
+  "38fa9e59dff4ba013cac926af88077e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "770c53f9746b0e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217759234,
+        "stop" : 1663217759927,
+        "duration" : 693
+      }
+    } ]
+  },
+  "84dcc1601754b76cf8ba8c07b67b1999" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a108720ebc508db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217759939,
+        "stop" : 1663217760251,
+        "duration" : 312
+      }
+    } ]
+  },
+  "893082e91463945b434649cb5860f8dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35e4f137f31e3ddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217758495,
+        "stop" : 1663217759199,
+        "duration" : 704
+      }
+    } ]
+  },
+  "b89fd14ac4ecdaceb385521e20b89a37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b725a6b234ab37b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217759939,
+        "stop" : 1663217760272,
+        "duration" : 333
+      }
+    } ]
+  },
+  "8fdbf78a3858c689bff9db46d3b924f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b49fc0aeebc794f0",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to read file Exception :org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]",
+      "time" : {
+        "start" : 1663217753827,
+        "stop" : 1663217753827,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cfd826b876cd78e12e8a3e8e752f75d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53a4e009f1c45f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217753209,
+        "stop" : 1663217756978,
+        "duration" : 3769
+      }
+    } ]
+  },
+  "d9f8f4d4a89c1ab94789e1882528e41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64750989014c910e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217753472,
+        "stop" : 1663217756879,
+        "duration" : 3407
+      }
+    } ]
+  },
+  "6a41c27ecd232dd1e9d762e84444bdd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d90822dcce0569b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217756996,
+        "stop" : 1663217758459,
+        "duration" : 1463
+      }
+    } ]
+  },
+  "ff653c0219f22826ab195c519eed4a5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2f41510ec12479b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217758495,
+        "stop" : 1663217759221,
+        "duration" : 726
+      }
+    } ]
+  },
+  "9adb34bbd4275179101a5414c727b09c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4722d740b2856dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217756993,
+        "stop" : 1663217758481,
+        "duration" : 1488
+      }
+    } ]
+  },
+  "179810000c1e7eab9a42132ae424d4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87ff45fbaf0cdfe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663217759235,
+        "stop" : 1663217759906,
+        "duration" : 671
+      }
+    } ]
+  }
+}

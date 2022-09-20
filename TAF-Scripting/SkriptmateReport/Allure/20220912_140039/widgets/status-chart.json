@@ -1,0 +1,41 @@
+[ {
+  "uid" : "cce4a544db3699f3",
+  "name" : "User is able to purchase items successfully",
+  "time" : {
+    "start" : 1662971242416,
+    "stop" : 1662971403186,
+    "duration" : 160770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa44b63e972d1d3f",
+  "name" : "User is unable to login successfully",
+  "time" : {
+    "start" : 1662971403328,
+    "stop" : 1662971439570,
+    "duration" : 36242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "844b6623c591e400",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1662971403326,
+    "stop" : 1662971439588,
+    "duration" : 36262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df893bbefd36a7a2",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1662971242136,
+    "stop" : 1662971403312,
+    "duration" : 161176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

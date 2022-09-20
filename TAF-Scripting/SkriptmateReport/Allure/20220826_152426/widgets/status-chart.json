@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2ab68eb569ef8eb7",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661507649655,
+    "stop" : 1661507666121,
+    "duration" : 16466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a1c873d80126f06",
+  "name" : "User is able to login successfully",
+  "time" : {
+    "start" : 1661507649892,
+    "stop" : 1661507666020,
+    "duration" : 16128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

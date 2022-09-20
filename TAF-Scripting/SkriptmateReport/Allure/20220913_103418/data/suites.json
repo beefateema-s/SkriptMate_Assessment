@@ -1,0 +1,72 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Unsuccessful Login",
+    "children" : [ {
+      "name" : "User is unable to login successfully",
+      "uid" : "5dec38d067f855e2",
+      "parentUid" : "02890973c4e729dd320c8a8ac80d216d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663045385224,
+        "stop" : 1663045422265,
+        "duration" : 37041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret", "standard_user" ]
+    }, {
+      "name" : "User is unable to login successfully",
+      "uid" : "74467b2a5239ec04",
+      "parentUid" : "02890973c4e729dd320c8a8ac80d216d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663045422403,
+        "stop" : 1663045458524,
+        "duration" : 36121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret", "locked_out_user" ]
+    } ],
+    "uid" : "02890973c4e729dd320c8a8ac80d216d"
+  }, {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SkJavaConsumerDirect-CodeClenUp",
+      "children" : [ {
+        "name" : "com.scripted.runners.WebTestRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "49dd483faceeb1f0",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1663045422403,
+            "stop" : 1663045458540,
+            "duration" : 36137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+        } ],
+        "uid" : "ee106fcd23d1babae1102c2acc28cf6c"
+      } ],
+      "uid" : "1ea5b7153960a422d5dea4e1e63e4d39"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

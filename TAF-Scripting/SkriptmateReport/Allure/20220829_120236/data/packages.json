@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.APITestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "534508330a3315f",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "failed",
+      "time" : {
+        "start" : 1661754754462,
+        "stop" : 1661754756095,
+        "duration" : 1633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+    } ],
+    "uid" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "Features.Webservices.Sample GET method API test",
+    "children" : [ {
+      "name" : "Sample POST method API test",
+      "uid" : "4b55dae831896ed0",
+      "parentUid" : "df73da7100c535de8dbaea064399e682",
+      "status" : "failed",
+      "time" : {
+        "start" : 1661754754710,
+        "stop" : 1661754755951,
+        "duration" : 1241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Features.Webservices.Sample GET method API test"
+  } ]
+}

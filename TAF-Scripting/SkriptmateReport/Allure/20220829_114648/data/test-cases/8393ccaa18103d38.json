@@ -1,0 +1,110 @@
+{
+  "uid" : "8393ccaa18103d38",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "3eb77817515707b37798734331868006",
+  "time" : {
+    "start" : 1661753799901,
+    "stop" : 1661753808088,
+    "duration" : 8187
+  },
+  "status" : "failed",
+  "statusMessage" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+  "statusTrace" : "junit.framework.AssertionFailedError: Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.sendRequest(RestAssuredWrapper.java:172)\r\n\tat com.scripted.apistepdefs.stepdefinitions.i_send_a_something_request_with_something_properties(stepdefinitions.java:133)\r\n\tat ✽.I send a \"Get\" Request with \"SampleGETApi\" properties(file:Features/Webservices/SampleAllRestApi.feature:6)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1661753799538,
+      "stop" : 1661753799726,
+      "duration" : 188
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1661753808101,
+      "stop" : 1661753808196,
+      "duration" : 95
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "6940@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Sample GET method API test\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Sample GET method API test\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8393ccaa18103d38.json",
+  "parameterValues" : [ "\"Sample GET method API test\"", "\"Sample GET method API test\"" ]
+}

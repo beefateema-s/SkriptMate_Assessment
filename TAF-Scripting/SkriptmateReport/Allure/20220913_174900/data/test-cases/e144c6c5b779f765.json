@@ -1,0 +1,194 @@
+{
+  "uid" : "e144c6c5b779f765",
+  "name" : "Sample GET method API test",
+  "fullName" : "Running api test: Sample GET method API test",
+  "historyId" : "4e233408d1f33b885c8864210dbc5ccc",
+  "time" : {
+    "start" : 1663071534463,
+    "stop" : 1663071540650,
+    "duration" : 6187
+  },
+  "status" : "failed",
+  "statusMessage" : "Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.valJsonResponseVal(RestAssuredWrapper.java:311)\r\n\tat com.scripted.apistepdefs.stepdefinitions.the_response_should_contain(stepdefinitions.java:177)\r\n\tat ✽.the response should contain:(file:Features/Webservices/DemoSample.feature:11)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1663071534465,
+      "stop" : 1663071535141,
+      "duration" : 676
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function",
+    "statusTrace" : "junit.framework.AssertionFailedError: Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.valJsonResponseVal(RestAssuredWrapper.java:311)\r\n\tat com.scripted.apistepdefs.stepdefinitions.the_response_should_contain(stepdefinitions.java:177)\r\n\tat ✽.the response should contain:(file:Features/Webservices/DemoSample.feature:11)\r\n",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Get\" API",
+      "time" : {
+        "start" : 1663071535144,
+        "stop" : 1663071535151,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I send a \"Get\" Request with \"DemoSample\" properties",
+      "time" : {
+        "start" : 1663071535151,
+        "stop" : 1663071536463,
+        "duration" : 1312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I should get response code 200",
+      "time" : {
+        "start" : 1663071536463,
+        "stop" : 1663071536466,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1663071536467,
+        "stop" : 1663071540637,
+        "duration" : 4170
+      },
+      "status" : "failed",
+      "statusMessage" : "Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function",
+      "statusTrace" : "junit.framework.AssertionFailedError: Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.valJsonResponseVal(RestAssuredWrapper.java:311)\r\n\tat com.scripted.apistepdefs.stepdefinitions.the_response_should_contain(stepdefinitions.java:177)\r\n\tat ✽.the response should contain:(file:Features/Webservices/DemoSample.feature:11)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ed8f19fab78346a",
+        "name" : "Data table",
+        "source" : "5ed8f19fab78346a.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 70
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1663071540637,
+      "stop" : 1663071540649,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9c9fcf97df4fad3",
+      "name" : "Screenshot",
+      "source" : "9c9fcf97df4fad3.txt",
+      "type" : "text/plain",
+      "size" : 1562
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "apiTest-2"
+  }, {
+    "name" : "tag",
+    "value" : "TestGet"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "6700@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Running api test"
+  }, {
+    "name" : "story",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Running api test"
+  }, {
+    "name" : "suite",
+    "value" : "Running api test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/DemoSample.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "TestGet", "apiTest-2" ]
+  },
+  "source" : "e144c6c5b779f765.json",
+  "parameterValues" : [ ]
+}

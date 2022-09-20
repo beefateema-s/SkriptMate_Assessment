@@ -1,0 +1,42 @@
+{
+  "4e233408d1f33b885c8864210dbc5ccc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46157810afb58d9a",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"io.restassured.response.Response.asString()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+      "time" : {
+        "start" : 1663064867493,
+        "stop" : 1663064869033,
+        "duration" : 1540
+      }
+    } ]
+  },
+  "6c90e6d7814a34ccaa8f2670d5a07833" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59947200a290ea18",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"io.restassured.response.Response.asString()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+      "time" : {
+        "start" : 1663064867114,
+        "stop" : 1663064869173,
+        "duration" : 2059
+      }
+    } ]
+  }
+}

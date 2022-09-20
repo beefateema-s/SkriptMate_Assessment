@@ -1,0 +1,110 @@
+{
+  "uid" : "32ccfb5ff0e6d1c6",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "61181b812e48124e96e27f436c0f80f7",
+  "time" : {
+    "start" : 1662354732878,
+    "stop" : 1662354808963,
+    "duration" : 76085
+  },
+  "status" : "failed",
+  "statusMessage" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.click(WebHandlers.java:162)\r\n\tat com.scripted.Pages.SauceLab.SauceLabCheckoutStepTwoPage.clickOnFinish(SauceLabCheckoutStepTwoPage.java:43)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.iClickOnFinish(SauceLabStepDef.java:66)\r\n\tat ✽.I click on finish(file:Features/Web/SauceLab/SimpleSuccesfulPurchase.feature:15)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1662354732451,
+      "stop" : 1662354732669,
+      "duration" : 218
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1662354808982,
+      "stop" : 1662354809157,
+      "duration" : 175
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "8392@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"User is able to purchase items successfully\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Simple Successful Purchase\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "32ccfb5ff0e6d1c6.json",
+  "parameterValues" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+}

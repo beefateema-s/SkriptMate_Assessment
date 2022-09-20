@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.APITestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "c675297c39a2dbde",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661762514543,
+        "stop" : 1661762519980,
+        "duration" : 5437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample DELETE method API test\"", "\"Sample GET method API test\"" ]
+    } ],
+    "uid" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "Features.Webservices.Sample GET method API test",
+    "children" : [ {
+      "name" : "Sample DELETE method API test",
+      "uid" : "2860cb415146f731",
+      "parentUid" : "df73da7100c535de8dbaea064399e682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661762514789,
+        "stop" : 1661762519885,
+        "duration" : 5096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Features.Webservices.Sample GET method API test"
+  } ]
+}

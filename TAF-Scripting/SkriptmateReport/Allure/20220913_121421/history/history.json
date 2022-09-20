@@ -1,0 +1,42 @@
+{
+  "5f82a44be93e1955d211153749adc747" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfa513078d55a415",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.lang.IllegalArgumentException: Request URI cannot end with ?",
+      "time" : {
+        "start" : 1663051460447,
+        "stop" : 1663051461497,
+        "duration" : 1050
+      }
+    } ]
+  },
+  "cfd826b876cd78e12e8a3e8e752f75d4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3b32e7061a9f73c",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.lang.IllegalArgumentException: Request URI cannot end with ?",
+      "time" : {
+        "start" : 1663051460162,
+        "stop" : 1663051461613,
+        "duration" : 1451
+      }
+    } ]
+  }
+}

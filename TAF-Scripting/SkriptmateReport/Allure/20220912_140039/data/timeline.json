@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "10400@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "cce4a544db3699f3",
+        "parentUid" : "216a3d604ceb40b09d75568777620b77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662971242416,
+          "stop" : 1662971403186,
+          "duration" : 160770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "aa44b63e972d1d3f",
+        "parentUid" : "216a3d604ceb40b09d75568777620b77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662971403328,
+          "stop" : 1662971439570,
+          "duration" : 36242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "df893bbefd36a7a2",
+        "parentUid" : "216a3d604ceb40b09d75568777620b77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662971242136,
+          "stop" : 1662971403312,
+          "duration" : 161176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "844b6623c591e400",
+        "parentUid" : "216a3d604ceb40b09d75568777620b77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662971403326,
+          "stop" : 1662971439588,
+          "duration" : 36262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      } ],
+      "uid" : "216a3d604ceb40b09d75568777620b77"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

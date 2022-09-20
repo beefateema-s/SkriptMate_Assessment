@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "5363468b6fc58684",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663050960097,
+      "stop" : 1663050963506,
+      "duration" : 3409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample DELETE method API test\"", "\"Running all api tests\"" ]
+  }, {
+    "name" : "Running all api tests",
+    "children" : [ {
+      "name" : "Sample DELETE method API test",
+      "children" : [ {
+        "name" : "Sample DELETE method API test",
+        "uid" : "14df18a702ec8fea",
+        "parentUid" : "1aada9b128b74d70fc455e99d30ba5ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663050960414,
+          "stop" : 1663050963406,
+          "duration" : 2992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1aada9b128b74d70fc455e99d30ba5ea"
+    } ],
+    "uid" : "73056e1c745db5f579ff34b4c3e691dc"
+  } ]
+}

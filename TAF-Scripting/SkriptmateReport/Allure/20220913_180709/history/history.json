@@ -1,0 +1,42 @@
+{
+  "4e233408d1f33b885c8864210dbc5ccc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8445d6895afcf4ad",
+      "status" : "broken",
+      "statusDetails" : "class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')",
+      "time" : {
+        "start" : 1663072626409,
+        "stop" : 1663072628922,
+        "duration" : 2513
+      }
+    } ]
+  },
+  "6c90e6d7814a34ccaa8f2670d5a07833" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2109e4780099f7fe",
+      "status" : "broken",
+      "statusDetails" : "class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')",
+      "time" : {
+        "start" : 1663072626135,
+        "stop" : 1663072629027,
+        "duration" : 2892
+      }
+    } ]
+  }
+}

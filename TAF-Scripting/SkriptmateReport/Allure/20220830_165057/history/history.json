@@ -1,0 +1,42 @@
+{
+  "c61743e1e2b1191c4dae1c125bf36b71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b9baac4133211dd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for com.scripted.web.WebWaitHelper$1@37df14d1 (tried for 30 second(s) with 300 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1661858412031,
+        "stop" : 1661858457263,
+        "duration" : 45232
+      }
+    } ]
+  },
+  "61181b812e48124e96e27f436c0f80f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6150ac3bf25b885",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for com.scripted.web.WebWaitHelper$1@37df14d1 (tried for 30 second(s) with 300 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1661858411741,
+        "stop" : 1661858457373,
+        "duration" : 45632
+      }
+    } ]
+  }
+}

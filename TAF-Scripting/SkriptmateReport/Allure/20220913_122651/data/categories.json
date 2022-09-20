@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Fail to send the request, Exception :javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "644138fd6cc778ea",
+        "parentUid" : "6eefd4dee625ea71ea2b19a37de0184f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663052187124,
+          "stop" : 1663052211091,
+          "duration" : 23967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "57700d3046d2c9fb",
+        "parentUid" : "6eefd4dee625ea71ea2b19a37de0184f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663052187399,
+          "stop" : 1663052210976,
+          "duration" : 23577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6eefd4dee625ea71ea2b19a37de0184f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

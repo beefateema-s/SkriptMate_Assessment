@@ -1,0 +1,106 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "187834c23c12fba7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663651585298,
+      "stop" : 1663651769194,
+      "duration" : 183896
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+  }, {
+    "name" : "Successful Purchase",
+    "children" : [ {
+      "name" : "User is able to purchase items successfully",
+      "children" : [ {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "26abbc58caed90fd",
+        "parentUid" : "bfb28975503e94573135126bae454089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663651585656,
+          "stop" : 1663651769046,
+          "duration" : 183390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      } ],
+      "uid" : "bfb28975503e94573135126bae454089"
+    } ],
+    "uid" : "728ce606eb9424b5aee63f61fcc49522"
+  }, {
+    "name" : "Unsuccessful Login",
+    "children" : [ {
+      "name" : "User is unable to login successfully",
+      "children" : [ {
+        "name" : "User is unable to login successfully",
+        "uid" : "c498b2819eaf7c33",
+        "parentUid" : "c26fa075209d923de1af90c3e7f7a147",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663651769210,
+          "stop" : 1663651808461,
+          "duration" : 39251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "becb8c6e7aa9ce30",
+        "parentUid" : "c26fa075209d923de1af90c3e7f7a147",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663651808510,
+          "stop" : 1663651848962,
+          "duration" : 40452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "locked_user" ]
+      } ],
+      "uid" : "c26fa075209d923de1af90c3e7f7a147"
+    } ],
+    "uid" : "a0ec2ee437dfc8187d35ba0baeb2659b"
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "e9ab37ac63573c04",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663651808509,
+      "stop" : 1663651848995,
+      "duration" : 40486
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+  } ]
+}

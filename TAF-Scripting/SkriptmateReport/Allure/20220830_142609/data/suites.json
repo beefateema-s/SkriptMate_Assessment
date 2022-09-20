@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SkJavaConsumerDirect-CodeClenUp",
+      "children" : [ {
+        "name" : "com.scripted.runners.WebTestRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "96263e9d73ea17b",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1661849688282,
+            "stop" : 1661849736636,
+            "duration" : 48354
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is able to add items to cart successfully\"", "\"Add To cart\"" ]
+        }, {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "b80e2768352992ff",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1661849736652,
+            "stop" : 1661849769489,
+            "duration" : 32837
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+        } ],
+        "uid" : "ee106fcd23d1babae1102c2acc28cf6c"
+      } ],
+      "uid" : "1ea5b7153960a422d5dea4e1e63e4d39"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Add To cart",
+    "children" : [ {
+      "name" : "User is able to add items to cart successfully",
+      "uid" : "9450066faf8dafc7",
+      "parentUid" : "f7fc95e1cf1917e479f697c7c1cef44f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661849688668,
+        "stop" : 1661849736353,
+        "duration" : 47685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret_sauce", "standard_user" ]
+    } ],
+    "uid" : "f7fc95e1cf1917e479f697c7c1cef44f"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "User is able to login successfully",
+      "uid" : "c8814f3587dcd46c",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661849736652,
+        "stop" : 1661849769483,
+        "duration" : 32831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret_sauce", "standard_user" ]
+    } ],
+    "uid" : "1a85855463aca3ea10b8fe0fcb3372b8"
+  } ]
+}

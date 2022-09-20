@@ -1,0 +1,181 @@
+{
+  "uid" : "d96e983481d0cf7e",
+  "name" : "Sample POST method API test",
+  "fullName" : "Sample GET method API test: Sample POST method API test",
+  "historyId" : "f655c1a0451ec035e4db555f8a717a8e",
+  "time" : {
+    "start" : 1661767216823,
+    "stop" : 1661767218699,
+    "duration" : 1876
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1661767216824,
+      "stop" : 1661767216827,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Post\" API",
+      "time" : {
+        "start" : 1661767216827,
+        "stop" : 1661767216828,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I send a \"Post\" Request with \"SamplePOSTApi\" and \"PostApiJsonReq\"",
+      "time" : {
+        "start" : 1661767216828,
+        "stop" : 1661767218122,
+        "duration" : 1294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I should get response code 201",
+      "time" : {
+        "start" : 1661767218122,
+        "stop" : 1661767218123,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1661767218123,
+        "stop" : 1661767218688,
+        "duration" : 565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e10e47b0d352c84c",
+        "name" : "Data table",
+        "source" : "e10e47b0d352c84c.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1661767218688,
+      "stop" : 1661767218699,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "702a6280a43b7c6c",
+      "name" : "Screenshot",
+      "source" : "702a6280a43b7c6c.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TestPost"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "5960@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "story",
+    "value" : "Sample POST method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Sample GET method API test"
+  }, {
+    "name" : "suite",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample POST method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TestPost" ]
+  },
+  "source" : "d96e983481d0cf7e.json",
+  "parameterValues" : [ ]
+}

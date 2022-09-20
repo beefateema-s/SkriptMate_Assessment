@@ -1,0 +1,42 @@
+{
+  "4e233408d1f33b885c8864210dbc5ccc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e144c6c5b779f765",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function",
+      "time" : {
+        "start" : 1663071534463,
+        "stop" : 1663071540650,
+        "duration" : 6187
+      }
+    } ]
+  },
+  "6c90e6d7814a34ccaa8f2670d5a07833" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e4c4b7e73f08a58",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :java.lang.IllegalArgumentException: The parameter \"null\" was used but not defined. Define parameters using the JsonPath.params(...) function",
+      "time" : {
+        "start" : 1663071534101,
+        "stop" : 1663071540765,
+        "duration" : 6664
+      }
+    } ]
+  }
+}

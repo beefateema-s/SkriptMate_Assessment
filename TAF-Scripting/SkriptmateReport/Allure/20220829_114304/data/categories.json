@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "7968811328ec1053",
+        "parentUid" : "c53206ad388ba64b1184d38567bbcae0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661753575806,
+          "stop" : 1661753583991,
+          "duration" : 8185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "fc2e073b13a0e290",
+        "parentUid" : "c53206ad388ba64b1184d38567bbcae0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661753576040,
+          "stop" : 1661753583881,
+          "duration" : 7841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c53206ad388ba64b1184d38567bbcae0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "527e321a8ff7e9f4",
+        "parentUid" : "1a21049e80cd121d8295adfdfe5465fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661755672366,
+          "stop" : 1661755673453,
+          "duration" : 1087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "76b8044e61cf7432",
+        "parentUid" : "1a21049e80cd121d8295adfdfe5465fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661755672624,
+          "stop" : 1661755673329,
+          "duration" : 705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a21049e80cd121d8295adfdfe5465fd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,199 @@
+{
+  "uid" : "a14e5521163c600b",
+  "name" : "Sample GET method API test with query parameters",
+  "fullName" : "Running all api tests: Sample GET method API test with query parameters",
+  "historyId" : "84dcc1601754b76cf8ba8c07b67b1999",
+  "time" : {
+    "start" : 1663565122322,
+    "stop" : 1663565122665,
+    "duration" : 343
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1663565122322,
+      "stop" : 1663565122325,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Get\" API",
+      "time" : {
+        "start" : 1663565122325,
+        "stop" : 1663565122325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I define request value \"page\" as \"2\"",
+      "time" : {
+        "start" : 1663565122325,
+        "stop" : 1663565122326,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send a \"Get\" Request with \"SampleGETApi\" properties with query parameters",
+      "time" : {
+        "start" : 1663565122326,
+        "stop" : 1663565122600,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should get response code 200",
+      "time" : {
+        "start" : 1663565122600,
+        "stop" : 1663565122601,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1663565122601,
+        "stop" : 1663565122655,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b88bf04fe9a6088a",
+        "name" : "Data table",
+        "source" : "b88bf04fe9a6088a.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1663565122655,
+      "stop" : 1663565122665,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a912af4d79dbdffc",
+      "name" : "Screenshot",
+      "source" : "a912af4d79dbdffc.txt",
+      "type" : "text/plain",
+      "size" : 1030
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "apiTest"
+  }, {
+    "name" : "tag",
+    "value" : "TestGet2"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "11700@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Running all api tests"
+  }, {
+    "name" : "story",
+    "value" : "Sample GET method API test with query parameters"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Running all api tests"
+  }, {
+    "name" : "suite",
+    "value" : "Running all api tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample GET method API test with query parameters"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "apiTest", "TestGet2" ]
+  },
+  "source" : "a14e5521163c600b.json",
+  "parameterValues" : [ ]
+}

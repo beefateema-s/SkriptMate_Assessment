@@ -1,0 +1,162 @@
+{
+  "893082e91463945b434649cb5860f8dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db527ef0fc935bf4",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763707736,
+        "stop" : 1661763707754,
+        "duration" : 18
+      }
+    } ]
+  },
+  "fc6841cc372a271252f1e5e2dbfcfe58" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c76a0e4ac7c95ca8",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1661763707797,
+        "stop" : 1661763713996,
+        "duration" : 6199
+      }
+    } ]
+  },
+  "f655c1a0451ec035e4db555f8a717a8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f45d6b575b3f9372",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763707675,
+        "stop" : 1661763707700,
+        "duration" : 25
+      }
+    } ]
+  },
+  "3eb77817515707b37798734331868006" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b512d38f025e9094",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1661763697412,
+        "stop" : 1661763707658,
+        "duration" : 10246
+      }
+    } ]
+  },
+  "fee83e03d205a47774fa9c5d7910c3f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "927e086f159e436c",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1661763697727,
+        "stop" : 1661763707556,
+        "duration" : 9829
+      }
+    } ]
+  },
+  "c4babb48157a7be83ea91a72b7cfcf20" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cc7684797f806b3",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763707672,
+        "stop" : 1661763707721,
+        "duration" : 49
+      }
+    } ]
+  },
+  "43cc13f820258a90750ea0ecc4775e54" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "521296f3dfd29751",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1661763707799,
+        "stop" : 1661763713967,
+        "duration" : 6168
+      }
+    } ]
+  },
+  "2daa17cbed6b471565d44ba10a617712" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c735bf0589e69c0f",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763707734,
+        "stop" : 1661763707782,
+        "duration" : 48
+      }
+    } ]
+  }
+}

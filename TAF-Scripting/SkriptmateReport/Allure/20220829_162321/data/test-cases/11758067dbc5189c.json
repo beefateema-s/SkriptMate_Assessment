@@ -1,0 +1,110 @@
+{
+  "uid" : "11758067dbc5189c",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "43dff1f7ee466076b49ce9fa9431a45d",
+  "time" : {
+    "start" : 1661770400679,
+    "stop" : 1661770401776,
+    "duration" : 1097
+  },
+  "status" : "failed",
+  "statusMessage" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"org.json.JSONObject.toString()\" because the return value of \"com.scripted.api.RequestParams.getJsonbody()\" is null",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"org.json.JSONObject.toString()\" because the return value of \"com.scripted.api.RequestParams.getJsonbody()\" is null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:111)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_urlencoded_request_in_something(stepdefinitions.java:121)\r\n\tat ✽.I send a \"Post\" urlencoded Request with \"SampleURLPOSTApi\" and \"PostApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:22)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1661770400185,
+      "stop" : 1661770400426,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1661770401786,
+      "stop" : 1661770401894,
+      "duration" : 108
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "12916@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Sample urlencoded POST method API test\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Sample GET method API test\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "11758067dbc5189c.json",
+  "parameterValues" : [ "\"Sample urlencoded POST method API test\"", "\"Sample GET method API test\"" ]
+}

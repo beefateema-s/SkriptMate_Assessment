@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error occurred while launching Web URLException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.scripted.web.BrowserDriver.getDriver()\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "849d9266b99693fd",
+        "parentUid" : "9d4d47f31d8a22225dc68f1d2540dd47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529948407,
+          "stop" : 1662529952019,
+          "duration" : 3612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "da5695c62c3ce4ae",
+        "parentUid" : "9d4d47f31d8a22225dc68f1d2540dd47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529948717,
+          "stop" : 1662529951920,
+          "duration" : 3203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "150776b5629cce1b",
+        "parentUid" : "9d4d47f31d8a22225dc68f1d2540dd47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529952042,
+          "stop" : 1662529953953,
+          "duration" : 1911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "5066a865c17cc066",
+        "parentUid" : "9d4d47f31d8a22225dc68f1d2540dd47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529952046,
+          "stop" : 1662529953930,
+          "duration" : 1884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      } ],
+      "uid" : "9d4d47f31d8a22225dc68f1d2540dd47"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "6644@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "1310b5872021f25a",
+        "parentUid" : "4428ae4eedc426f956957c1983a78ba6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529851235,
+          "stop" : 1662529863100,
+          "duration" : 11865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "101c7ddb77f85e3",
+        "parentUid" : "4428ae4eedc426f956957c1983a78ba6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529863283,
+          "stop" : 1662529866461,
+          "duration" : 3178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "d271ea489d675f73",
+        "parentUid" : "4428ae4eedc426f956957c1983a78ba6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529863281,
+          "stop" : 1662529866500,
+          "duration" : 3219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "1be0d64991b676d9",
+        "parentUid" : "4428ae4eedc426f956957c1983a78ba6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662529850364,
+          "stop" : 1662529863265,
+          "duration" : 12901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      } ],
+      "uid" : "4428ae4eedc426f956957c1983a78ba6"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

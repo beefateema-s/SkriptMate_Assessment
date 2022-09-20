@@ -1,0 +1,127 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SkJavaConsumerDirect-CodeClenUp",
+      "children" : [ {
+        "name" : "com.scripted.runners.WebTestRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "2504dfa22f3cb1ce",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1663045709227,
+            "stop" : 1663045869008,
+            "duration" : 159781
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+        }, {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "68bca79a3539ceba",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1663045940965,
+            "stop" : 1663045976637,
+            "duration" : 35672
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+        } ],
+        "uid" : "ee106fcd23d1babae1102c2acc28cf6c"
+      } ],
+      "uid" : "1ea5b7153960a422d5dea4e1e63e4d39"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Successful Purchase",
+    "children" : [ {
+      "name" : "User is able to purchase items successfully",
+      "uid" : "b5ad56dfd2351b24",
+      "parentUid" : "1ee159174024816cca86d860a1f0fc69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663045709528,
+        "stop" : 1663045868876,
+        "duration" : 159348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+    } ],
+    "uid" : "1ee159174024816cca86d860a1f0fc69"
+  }, {
+    "name" : "Unsuccessful Login",
+    "children" : [ {
+      "name" : "User is unable to login successfully",
+      "uid" : "1cf3c97aaa394ad5",
+      "parentUid" : "02890973c4e729dd320c8a8ac80d216d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663045869030,
+        "stop" : 1663045904865,
+        "duration" : 35835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret", "standard_user" ]
+    }, {
+      "name" : "User is unable to login successfully",
+      "uid" : "25001e770a7a8065",
+      "parentUid" : "02890973c4e729dd320c8a8ac80d216d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663045904896,
+        "stop" : 1663045940934,
+        "duration" : 36038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret", "locked_out_user" ]
+    }, {
+      "name" : "User is unable to login successfully",
+      "uid" : "e24900ea603b67b0",
+      "parentUid" : "02890973c4e729dd320c8a8ac80d216d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663045940965,
+        "stop" : 1663045976622,
+        "duration" : 35657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "02890973c4e729dd320c8a8ac80d216d"
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.WebTestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "45b747d968225814",
+      "parentUid" : "6ab7c2200dcccf8a0ae254c65b2da055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662366621327,
+        "stop" : 1662366772075,
+        "duration" : 150748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+    } ],
+    "uid" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "Features.Web.SauceLab.Simple Successful Purchase",
+    "children" : [ {
+      "name" : "User is able to purchase items successfully",
+      "uid" : "d8686a198c541c98",
+      "parentUid" : "e6dc8150ce8677d0abb6fced88ab1108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662366621669,
+        "stop" : 1662366771955,
+        "duration" : 150286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret_sauce", "standard_user" ]
+    } ],
+    "uid" : "Features.Web.SauceLab.Simple Successful Purchase"
+  } ]
+}

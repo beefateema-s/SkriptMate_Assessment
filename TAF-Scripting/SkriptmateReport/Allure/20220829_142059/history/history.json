@@ -1,0 +1,158 @@
+{
+  "893082e91463945b434649cb5860f8dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1e7d78c49be430f",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763058270,
+        "stop" : 1661763058300,
+        "duration" : 30
+      }
+    } ]
+  },
+  "fc6841cc372a271252f1e5e2dbfcfe58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "616a883d52fbeb36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661763058336,
+        "stop" : 1661763059395,
+        "duration" : 1059
+      }
+    } ]
+  },
+  "f655c1a0451ec035e4db555f8a717a8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "929455438e37fbfc",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763058187,
+        "stop" : 1661763058228,
+        "duration" : 41
+      }
+    } ]
+  },
+  "3eb77817515707b37798734331868006" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d29fc644343ca0e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661763054673,
+        "stop" : 1661763058169,
+        "duration" : 3496
+      }
+    } ]
+  },
+  "fee83e03d205a47774fa9c5d7910c3f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1d6b28697ec3554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661763054926,
+        "stop" : 1661763058070,
+        "duration" : 3144
+      }
+    } ]
+  },
+  "c4babb48157a7be83ea91a72b7cfcf20" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90eb9cb3aedccb64",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763058183,
+        "stop" : 1661763058251,
+        "duration" : 68
+      }
+    } ]
+  },
+  "43cc13f820258a90750ea0ecc4775e54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2b532d2bed8f53e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661763058338,
+        "stop" : 1661763059366,
+        "duration" : 1028
+      }
+    } ]
+  },
+  "2daa17cbed6b471565d44ba10a617712" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5844719905b3e28c",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "time" : {
+        "start" : 1661763058268,
+        "stop" : 1661763058323,
+        "duration" : 55
+      }
+    } ]
+  }
+}

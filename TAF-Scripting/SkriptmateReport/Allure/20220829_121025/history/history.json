@@ -1,0 +1,42 @@
+{
+  "f655c1a0451ec035e4db555f8a717a8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "693b7d68d35ba6a5",
+      "status" : "failed",
+      "statusDetails" : "Error while set the Json body : org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]",
+      "time" : {
+        "start" : 1661755224305,
+        "stop" : 1661755224923,
+        "duration" : 618
+      }
+    } ]
+  },
+  "c4babb48157a7be83ea91a72b7cfcf20" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c1f1f1497c76a48",
+      "status" : "failed",
+      "statusDetails" : "Error while set the Json body : org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]",
+      "time" : {
+        "start" : 1661755224063,
+        "stop" : 1661755225036,
+        "duration" : 973
+      }
+    } ]
+  }
+}

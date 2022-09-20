@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Aug 29 14:05:09 IST 2022","Mon Aug 29 14:05:11 IST 2022","1909","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.APITestRunner","com.scripted.runners.APITestRunner","runScenario","Runs Cucumber Scenarios",""
+"failed","Mon Aug 29 14:05:09 IST 2022","Mon Aug 29 14:05:11 IST 2022","1436","","Sample GET method API test","","Sample PUT method API test","","Sample PUT method API test",""

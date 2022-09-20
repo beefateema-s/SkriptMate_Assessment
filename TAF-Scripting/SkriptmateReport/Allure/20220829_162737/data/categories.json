@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [415] but found [201]",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "14201c22a84c7e94",
+        "parentUid" : "3cf8cb0c07a598ddaecd0586bab94e19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661770653266,
+          "stop" : 1661770657610,
+          "duration" : 4344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample urlencoded POST method API test\"", "\"running all api tests\"" ]
+      }, {
+        "name" : "Sample urlencoded POST method API test",
+        "uid" : "fba807dade24184f",
+        "parentUid" : "3cf8cb0c07a598ddaecd0586bab94e19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661770653542,
+          "stop" : 1661770657509,
+          "duration" : 3967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cf8cb0c07a598ddaecd0586bab94e19"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.WebTestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "96263e9d73ea17b",
+      "parentUid" : "6ab7c2200dcccf8a0ae254c65b2da055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661849688282,
+        "stop" : 1661849736636,
+        "duration" : 48354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"User is able to add items to cart successfully\"", "\"Add To cart\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "b80e2768352992ff",
+      "parentUid" : "6ab7c2200dcccf8a0ae254c65b2da055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661849736652,
+        "stop" : 1661849769489,
+        "duration" : 32837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+    } ],
+    "uid" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "Features.Web.SauceLab",
+    "children" : [ {
+      "name" : "Add To cart",
+      "children" : [ {
+        "name" : "User is able to add items to cart successfully",
+        "uid" : "9450066faf8dafc7",
+        "parentUid" : "a4e92caa6a5f6f7741302fa0d39bf3b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661849688668,
+          "stop" : 1661849736353,
+          "duration" : 47685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "a4e92caa6a5f6f7741302fa0d39bf3b5"
+    }, {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "User is able to login successfully",
+        "uid" : "c8814f3587dcd46c",
+        "parentUid" : "3cc0858c9fe397885c4d624f649fad2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661849736652,
+          "stop" : 1661849769483,
+          "duration" : 32831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "3cc0858c9fe397885c4d624f649fad2b"
+    } ],
+    "uid" : "Features.Web.SauceLab"
+  } ]
+}

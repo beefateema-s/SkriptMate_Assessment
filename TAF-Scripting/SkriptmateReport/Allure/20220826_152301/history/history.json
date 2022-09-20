@@ -1,0 +1,42 @@
+{
+  "ed2b6540242c84e45b1373589f261936" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26a66e346f36cf1b",
+      "status" : "failed",
+      "statusDetails" : "Error occurred while launching Web URLException :org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '192.168.42.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 57aeffae438f624d7d27f3b2f7294147",
+      "time" : {
+        "start" : 1661507556975,
+        "stop" : 1661507581566,
+        "duration" : 24591
+      }
+    } ]
+  },
+  "bb54ed6697cc6247625c316fef24a813" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fc319043ae1d97",
+      "status" : "failed",
+      "statusDetails" : "Error occurred while launching Web URLException :org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '192.168.42.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 57aeffae438f624d7d27f3b2f7294147",
+      "time" : {
+        "start" : 1661507557322,
+        "stop" : 1661507581399,
+        "duration" : 24077
+      }
+    } ]
+  }
+}

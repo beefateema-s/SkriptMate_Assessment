@@ -1,0 +1,82 @@
+{
+  "525ed6ad97a7ebda1d6e0e940ac40c2b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "150776b5629cce1b",
+      "status" : "failed",
+      "statusDetails" : "Error occurred while launching Web URLException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.scripted.web.BrowserDriver.getDriver()\" is null",
+      "time" : {
+        "start" : 1662529952042,
+        "stop" : 1662529953953,
+        "duration" : 1911
+      }
+    } ]
+  },
+  "e7b042a347e3234d5de0c66e7d80f271" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da5695c62c3ce4ae",
+      "status" : "failed",
+      "statusDetails" : "Error occurred while launching Web URLException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.scripted.web.BrowserDriver.getDriver()\" is null",
+      "time" : {
+        "start" : 1662529948717,
+        "stop" : 1662529951920,
+        "duration" : 3203
+      }
+    } ]
+  },
+  "9f7f94b0bebd1e3e491c6120c31715e6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5066a865c17cc066",
+      "status" : "failed",
+      "statusDetails" : "Error occurred while launching Web URLException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.scripted.web.BrowserDriver.getDriver()\" is null",
+      "time" : {
+        "start" : 1662529952046,
+        "stop" : 1662529953930,
+        "duration" : 1884
+      }
+    } ]
+  },
+  "61181b812e48124e96e27f436c0f80f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "849d9266b99693fd",
+      "status" : "failed",
+      "statusDetails" : "Error occurred while launching Web URLException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.scripted.web.BrowserDriver.getDriver()\" is null",
+      "time" : {
+        "start" : 1662529948407,
+        "stop" : 1662529952019,
+        "duration" : 3612
+      }
+    } ]
+  }
+}

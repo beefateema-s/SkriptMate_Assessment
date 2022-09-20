@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "cad4e677af22a434",
+        "parentUid" : "1a21049e80cd121d8295adfdfe5465fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661764013479,
+          "stop" : 1661764013550,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "76a53bbceeabbf19",
+        "parentUid" : "1a21049e80cd121d8295adfdfe5465fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661764013483,
+          "stop" : 1661764013524,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "335bf818764aa97a",
+        "parentUid" : "1a21049e80cd121d8295adfdfe5465fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661764013563,
+          "stop" : 1661764013617,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample PUT method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample PUT method API test",
+        "uid" : "dfd2191e76ad3f84",
+        "parentUid" : "1a21049e80cd121d8295adfdfe5465fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661764013564,
+          "stop" : 1661764013593,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a21049e80cd121d8295adfdfe5465fd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

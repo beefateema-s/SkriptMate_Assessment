@@ -1,0 +1,15 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "cf8f1f8142333a4d769aa69c9a75a885",
+    "name" : "Sample GET method API test",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

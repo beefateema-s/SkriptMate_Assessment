@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2860cb415146f731",
+  "name" : "Sample DELETE method API test",
+  "time" : {
+    "start" : 1661762514789,
+    "stop" : 1661762519885,
+    "duration" : 5096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c675297c39a2dbde",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661762514543,
+    "stop" : 1661762519980,
+    "duration" : 5437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,55 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SkJavaConsumerDirect-CodeClenUp",
+      "children" : [ {
+        "name" : "com.scripted.runners.APITestRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "54aedc557ce494ef",
+          "parentUid" : "faa314340dfbd18dd5cb5534d1307c34",
+          "status" : "failed",
+          "time" : {
+            "start" : 1661837215418,
+            "stop" : 1661837219124,
+            "duration" : 3706
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"Sample urlencoded POST method API test\"", "\"Running all api tests\"" ]
+        } ],
+        "uid" : "faa314340dfbd18dd5cb5534d1307c34"
+      } ],
+      "uid" : "1ea5b7153960a422d5dea4e1e63e4d39"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Running all api tests",
+    "children" : [ {
+      "name" : "Sample urlencoded POST method API test",
+      "uid" : "8602e41b52f1ffcc",
+      "parentUid" : "ca12bb5e74808901344693b21453197f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1661837215748,
+        "stop" : 1661837218994,
+        "duration" : 3246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca12bb5e74808901344693b21453197f"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "f655c1a0451ec035e4db555f8a717a8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6f672bc69b593e6",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"String.contains(java.lang.CharSequence)\" because \"this.contentType\" is null",
+      "time" : {
+        "start" : 1661772067877,
+        "stop" : 1661772068733,
+        "duration" : 856
+      }
+    } ]
+  },
+  "9adb34bbd4275179101a5414c727b09c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5afc4d7cf87a6a49",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"String.contains(java.lang.CharSequence)\" because \"this.contentType\" is null",
+      "time" : {
+        "start" : 1661772067633,
+        "stop" : 1661772068870,
+        "duration" : 1237
+      }
+    } ]
+  }
+}

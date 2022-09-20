@@ -1,0 +1,101 @@
+[ {
+  "uid" : "c0125b5d3a759885",
+  "name" : "Sample DELETE method API test",
+  "time" : {
+    "start" : 1663131480107,
+    "stop" : 1663131480739,
+    "duration" : 632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c67285f2d5497326",
+  "name" : "Sample PUT method API test",
+  "time" : {
+    "start" : 1663131479383,
+    "stop" : 1663131480071,
+    "duration" : 688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edc1f7c626d5db02",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663131480771,
+    "stop" : 1663131481118,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85eefa661a4b30aa",
+  "name" : "Sample GET method API test with query parameters",
+  "time" : {
+    "start" : 1663131480771,
+    "stop" : 1663131481087,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21a1db166a4ce329",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663131479383,
+    "stop" : 1663131480093,
+    "duration" : 710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adc3dfd6614cb401",
+  "name" : "Sample GET method API test",
+  "time" : {
+    "start" : 1663131472047,
+    "stop" : 1663131477820,
+    "duration" : 5773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffb80810470d9769",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663131471406,
+    "stop" : 1663131477939,
+    "duration" : 6533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3b532dd34c6953d",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663131480106,
+    "stop" : 1663131480755,
+    "duration" : 649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60f245f019a1f6d4",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663131477955,
+    "stop" : 1663131479367,
+    "duration" : 1412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a83a356ae903eb6a",
+  "name" : "Sample POST method API test",
+  "time" : {
+    "start" : 1663131477959,
+    "stop" : 1663131479352,
+    "duration" : 1393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

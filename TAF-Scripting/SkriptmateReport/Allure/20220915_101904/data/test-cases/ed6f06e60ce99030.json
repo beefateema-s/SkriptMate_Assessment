@@ -1,0 +1,404 @@
+{
+  "uid" : "ed6f06e60ce99030",
+  "name" : "User is able to purchase items successfully",
+  "fullName" : "Successful Purchase: User is able to purchase items successfully",
+  "historyId" : "a810c63a67c966a5edc2358ac84ec05e",
+  "time" : {
+    "start" : 1663217248997,
+    "stop" : 1663217344241,
+    "duration" : 95244
+  },
+  "status" : "failed",
+  "statusMessage" : "$29.99 does not match with null",
+  "statusTrace" : "junit.framework.AssertionFailedError: $29.99 does not match with null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.validateItemsInCart(SauceLabStepDef.java:73)\r\n\tat ✽.I validate items in cart(file:Features/Web/SauceLab/SuccessfulPurchase.feature:19)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "CommonStepdef.driverSetup()",
+    "time" : {
+      "start" : 1663217248998,
+      "stop" : 1663217256986,
+      "duration" : 7988
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "$29.99 does not match with null",
+    "statusTrace" : "junit.framework.AssertionFailedError: $29.99 does not match with null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.validateItemsInCart(SauceLabStepDef.java:73)\r\n\tat ✽.I validate items in cart(file:Features/Web/SauceLab/SuccessfulPurchase.feature:19)\r\n",
+    "steps" : [ {
+      "name" : "Given  I launched sauce lab application",
+      "time" : {
+        "start" : 1663217256988,
+        "stop" : 1663217293220,
+        "duration" : 36232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I enter username as \"standard_user\"",
+      "time" : {
+        "start" : 1663217293221,
+        "stop" : 1663217293494,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I enter password as \"secret_sauce\"",
+      "time" : {
+        "start" : 1663217293494,
+        "stop" : 1663217293706,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I click on sauce lab log in button",
+      "time" : {
+        "start" : 1663217293706,
+        "stop" : 1663217314710,
+        "duration" : 21004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I select filter as \"Price (low to high)\"",
+      "time" : {
+        "start" : 1663217314710,
+        "stop" : 1663217316317,
+        "duration" : 1607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I validate selected filter",
+      "time" : {
+        "start" : 1663217316318,
+        "stop" : 1663217316361,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I select items",
+      "time" : {
+        "start" : 1663217316361,
+        "stop" : 1663217317837,
+        "duration" : 1476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16f016f39056b31f",
+        "name" : "Data table",
+        "source" : "16f016f39056b31f.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 79
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I view my shopping cart",
+      "time" : {
+        "start" : 1663217317837,
+        "stop" : 1663217318710,
+        "duration" : 873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I remove item from cart",
+      "time" : {
+        "start" : 1663217318710,
+        "stop" : 1663217318996,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7cc9d6f1d13f05e6",
+        "name" : "Data table",
+        "source" : "7cc9d6f1d13f05e6.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I validate items in cart",
+      "time" : {
+        "start" : 1663217318997,
+        "stop" : 1663217339301,
+        "duration" : 20304
+      },
+      "status" : "failed",
+      "statusMessage" : "$29.99 does not match with null",
+      "statusTrace" : "junit.framework.AssertionFailedError: $29.99 does not match with null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.validateItemsInCart(SauceLabStepDef.java:73)\r\n\tat ✽.I validate items in cart(file:Features/Web/SauceLab/SuccessfulPurchase.feature:19)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7958e7d7a503cb8",
+        "name" : "Data table",
+        "source" : "b7958e7d7a503cb8.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I click on checkout",
+      "time" : {
+        "start" : 1663217339301,
+        "stop" : 1663217339302,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I input my details as \"Bee\", \"Fateema\" and \"123456\"",
+      "time" : {
+        "start" : 1663217339302,
+        "stop" : 1663217339302,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  select continue",
+      "time" : {
+        "start" : 1663217339303,
+        "stop" : 1663217339303,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I validate total price",
+      "time" : {
+        "start" : 1663217339303,
+        "stop" : 1663217339304,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I click on finish",
+      "time" : {
+        "start" : 1663217339304,
+        "stop" : 1663217339304,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I validate order successful message",
+      "time" : {
+        "start" : 1663217339305,
+        "stop" : 1663217339305,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 16
+  },
+  "afterStages" : [ {
+    "name" : "CommonStepdef.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1663217339307,
+      "stop" : 1663217344238,
+      "duration" : 4931
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8ae60b550e065321",
+      "name" : "Screenshot",
+      "source" : "8ae60b550e065321.png",
+      "type" : "image/png",
+      "size" : 52306
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "webTest"
+  }, {
+    "name" : "tag",
+    "value" : "Web"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "10256@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Successful Purchase"
+  }, {
+    "name" : "story",
+    "value" : "User is able to purchase items successfully"
+  }, {
+    "name" : "package",
+    "value" : "Features.Web.SauceLab.Successful Purchase"
+  }, {
+    "name" : "suite",
+    "value" : "Successful Purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to purchase items successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Web/SauceLab/SuccessfulPurchase.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "firstName",
+    "value" : "Bee"
+  }, {
+    "name" : "lastName",
+    "value" : "Fateema"
+  }, {
+    "name" : "password",
+    "value" : "secret_sauce"
+  }, {
+    "name" : "productFilter",
+    "value" : "Price (low to high)"
+  }, {
+    "name" : "username",
+    "value" : "standard_user"
+  }, {
+    "name" : "zipCode",
+    "value" : "123456"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Web", "webTest" ]
+  },
+  "source" : "ed6f06e60ce99030.json",
+  "parameterValues" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '192.168.42.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4dfc2a85ba1275baf8a6c04d4145e522\n*** Element info: {Using=id, value=add-to-cart-sauce-labs-backpack}",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "276d670e4ce6fde6",
+        "parentUid" : "5726d06162fde56f88681fe88dc604f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662353739320,
+          "stop" : 1662353807471,
+          "duration" : 68151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "4868b4017cc3ddca",
+        "parentUid" : "5726d06162fde56f88681fe88dc604f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662353739643,
+          "stop" : 1662353807053,
+          "duration" : 67410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "5726d06162fde56f88681fe88dc604f8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

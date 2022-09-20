@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Sep 06 16:31:09 IST 2022","Tue Sep 06 16:33:17 IST 2022","127281","","Simple Successful Purchase","","User is able to purchase items successfully","","User is able to purchase items successfully",""
+"failed","Tue Sep 06 16:31:09 IST 2022","Tue Sep 06 16:33:17 IST 2022","127694","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""

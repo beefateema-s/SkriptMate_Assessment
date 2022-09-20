@@ -1,0 +1,42 @@
+{
+  "fee83e03d205a47774fa9c5d7910c3f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b73e76a235c1292",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: Base URI cannot be null",
+      "time" : {
+        "start" : 1661752109090,
+        "stop" : 1661752110649,
+        "duration" : 1559
+      }
+    } ]
+  },
+  "3eb77817515707b37798734331868006" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fc5f0d79ea90c64",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.IllegalArgumentException: Base URI cannot be null",
+      "time" : {
+        "start" : 1661752108735,
+        "stop" : 1661752110779,
+        "duration" : 2044
+      }
+    } ]
+  }
+}

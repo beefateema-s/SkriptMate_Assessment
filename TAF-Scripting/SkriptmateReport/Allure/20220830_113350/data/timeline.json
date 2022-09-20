@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "16208@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Sample urlencoded POST method API test",
+        "uid" : "781e13ff8f53e851",
+        "parentUid" : "164fbb9f7cf2b2521bf6d7c41b3320e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661839388434,
+          "stop" : 1661839430705,
+          "duration" : 42271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "232b1db287e50009",
+        "parentUid" : "164fbb9f7cf2b2521bf6d7c41b3320e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661839388148,
+          "stop" : 1661839430811,
+          "duration" : 42663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample urlencoded POST method API test\"", "\"Running all api tests\"" ]
+      } ],
+      "uid" : "164fbb9f7cf2b2521bf6d7c41b3320e6"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

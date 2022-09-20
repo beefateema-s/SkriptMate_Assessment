@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Mismatch in the response - JsonPath : page expected:<2> but was:<1>",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "65769bb9502a2e19",
+        "parentUid" : "6097a55c91b8c470161433d02d108b0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663051434197,
+          "stop" : 1663051437668,
+          "duration" : 3471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "792f99e9d05e4f7b",
+        "parentUid" : "6097a55c91b8c470161433d02d108b0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663051434498,
+          "stop" : 1663051437568,
+          "duration" : 3070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6097a55c91b8c470161433d02d108b0b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

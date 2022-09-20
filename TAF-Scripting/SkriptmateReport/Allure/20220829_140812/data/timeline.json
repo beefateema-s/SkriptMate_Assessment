@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "12700@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "acdf0be83ab32883",
+        "parentUid" : "c66f232ad24d2ed255d1dfd0103ff793",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661762291624,
+          "stop" : 1661762292622,
+          "duration" : 998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample DELETE method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample DELETE method API test",
+        "uid" : "804d2f5103d7b49b",
+        "parentUid" : "c66f232ad24d2ed255d1dfd0103ff793",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661762291870,
+          "stop" : 1661762292516,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c66f232ad24d2ed255d1dfd0103ff793"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

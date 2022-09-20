@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "6252@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "802cfc0556841102",
+        "parentUid" : "48e73293d3d20442b175929680a8cf9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662545251533,
+          "stop" : 1662545412334,
+          "duration" : 160801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "2c1e05736aad259a",
+        "parentUid" : "48e73293d3d20442b175929680a8cf9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662545251837,
+          "stop" : 1662545412084,
+          "duration" : 160247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "5eab7906cc87a96",
+        "parentUid" : "48e73293d3d20442b175929680a8cf9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662545412350,
+          "stop" : 1662545449486,
+          "duration" : 37136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "df2e0e6bb51b6252",
+        "parentUid" : "48e73293d3d20442b175929680a8cf9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662545412352,
+          "stop" : 1662545449468,
+          "duration" : 37116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      } ],
+      "uid" : "48e73293d3d20442b175929680a8cf9c"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "20b9f65d256cfa57",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "ff653c0219f22826ab195c519eed4a5f",
+  "time" : {
+    "start" : 1663217737687,
+    "stop" : 1663217737754,
+    "duration" : 67
+  },
+  "status" : "failed",
+  "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: Base URI cannot be null",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: Base URI cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:113)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:107)\r\n\tat ✽.I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:23)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1663217733794,
+      "stop" : 1663217734067,
+      "duration" : 273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1663217737856,
+      "stop" : 1663217738153,
+      "duration" : 297
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "12268@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Sample PUT method API test\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Running all api tests\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "20b9f65d256cfa57.json",
+  "parameterValues" : [ "\"Sample PUT method API test\"", "\"Running all api tests\"" ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.APITestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "ce99c7ed286ac22e",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575660982,
+        "stop" : 1663575666641,
+        "duration" : 5659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample GET method API test\"", "\"Running all api tests\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "85bb5da61de8a383",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575666656,
+        "stop" : 1663575668097,
+        "duration" : 1441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample POST method API test\"", "\"Running all api tests\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "2e14d4971c1d246b",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575668110,
+        "stop" : 1663575668905,
+        "duration" : 795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample PUT method API test\"", "\"Running all api tests\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "ebed3baa9fa0ee8e",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575668918,
+        "stop" : 1663575669552,
+        "duration" : 634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample DELETE method API test\"", "\"Running all api tests\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "fd5619c630ed54c8",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575669564,
+        "stop" : 1663575669899,
+        "duration" : 335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample GET method API test with query parameters\"", "\"Running all api tests\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "1bdb9d53f1ea16d9",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "failed",
+      "time" : {
+        "start" : 1663575669912,
+        "stop" : 1663575670750,
+        "duration" : 838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample PATCH method API test\"", "\"Running all api tests\"" ]
+    } ],
+    "uid" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "Features.Webservices.Running all api tests",
+    "children" : [ {
+      "name" : "Sample GET method API test",
+      "uid" : "df2c6ec7df30ffcb",
+      "parentUid" : "4ddaccf8bb1abaab4196ab907dc69283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575661496,
+        "stop" : 1663575666534,
+        "duration" : 5038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sample POST method API test",
+      "uid" : "39ca610ec573a042",
+      "parentUid" : "4ddaccf8bb1abaab4196ab907dc69283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575666659,
+        "stop" : 1663575668073,
+        "duration" : 1414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sample PUT method API test",
+      "uid" : "1f9b567bea8a35fc",
+      "parentUid" : "4ddaccf8bb1abaab4196ab907dc69283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575668111,
+        "stop" : 1663575668883,
+        "duration" : 772
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sample DELETE method API test",
+      "uid" : "1e077fb9543d3a88",
+      "parentUid" : "4ddaccf8bb1abaab4196ab907dc69283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575668919,
+        "stop" : 1663575669531,
+        "duration" : 612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sample GET method API test with query parameters",
+      "uid" : "d5102506ed9128b2",
+      "parentUid" : "4ddaccf8bb1abaab4196ab907dc69283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575669565,
+        "stop" : 1663575669880,
+        "duration" : 315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Sample PATCH method API test",
+      "uid" : "14160cfb91845480",
+      "parentUid" : "4ddaccf8bb1abaab4196ab907dc69283",
+      "status" : "failed",
+      "time" : {
+        "start" : 1663575669912,
+        "stop" : 1663575670712,
+        "duration" : 800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Features.Webservices.Running all api tests"
+  } ]
+}

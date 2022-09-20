@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "276d670e4ce6fde6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662353739320,
+      "stop" : 1662353807471,
+      "duration" : 68151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+  }, {
+    "name" : "Simple Successful Purchase",
+    "children" : [ {
+      "name" : "User is able to purchase items successfully",
+      "children" : [ {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "4868b4017cc3ddca",
+        "parentUid" : "ba27cff35d806bdcc5804c83c781c31f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662353739643,
+          "stop" : 1662353807053,
+          "duration" : 67410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "ba27cff35d806bdcc5804c83c781c31f"
+    } ],
+    "uid" : "ab051acc5e35cd49b4013e9344c37a25"
+  } ]
+}

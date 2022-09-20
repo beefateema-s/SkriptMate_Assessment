@@ -1,0 +1,81 @@
+[ {
+  "uid" : "76a53bbceeabbf19",
+  "name" : "Sample POST method API test",
+  "time" : {
+    "start" : 1661764013483,
+    "stop" : 1661764013524,
+    "duration" : 41
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cad4e677af22a434",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661764013479,
+    "stop" : 1661764013550,
+    "duration" : 71
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad591ee3a59b94b5",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661764013631,
+    "stop" : 1661764014911,
+    "duration" : 1280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fa57073197f28c0",
+  "name" : "Sample GET method API test",
+  "time" : {
+    "start" : 1661764010508,
+    "stop" : 1661764013375,
+    "duration" : 2867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfd2191e76ad3f84",
+  "name" : "Sample PUT method API test",
+  "time" : {
+    "start" : 1661764013564,
+    "stop" : 1661764013593,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57813baa1463e121",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661764010247,
+    "stop" : 1661764013465,
+    "duration" : 3218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe63ad964efdfb7a",
+  "name" : "Sample DELETE method API test",
+  "time" : {
+    "start" : 1661764013633,
+    "stop" : 1661764014885,
+    "duration" : 1252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "335bf818764aa97a",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661764013563,
+    "stop" : 1661764013617,
+    "duration" : 54
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

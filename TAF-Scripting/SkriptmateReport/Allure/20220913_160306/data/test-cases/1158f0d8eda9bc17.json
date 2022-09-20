@@ -1,0 +1,154 @@
+{
+  "uid" : "1158f0d8eda9bc17",
+  "name" : "Sample GET method API test",
+  "fullName" : "Running api test: Sample GET method API test",
+  "historyId" : "4e233408d1f33b885c8864210dbc5ccc",
+  "time" : {
+    "start" : 1663065183758,
+    "stop" : 1663065186046,
+    "duration" : 2288
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1663065183760,
+      "stop" : 1663065184403,
+      "duration" : 643
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Get\" API",
+      "time" : {
+        "start" : 1663065184404,
+        "stop" : 1663065184410,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  updateUrlPath with \"DemoSample\" properties with dynamic parameters",
+      "time" : {
+        "start" : 1663065184410,
+        "stop" : 1663065186026,
+        "duration" : 1616
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f66fb7addc6816e",
+        "name" : "Data table",
+        "source" : "6f66fb7addc6816e.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1663065186027,
+      "stop" : 1663065186045,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2eab4cf1d5ff41eb",
+      "name" : "Screenshot",
+      "source" : "2eab4cf1d5ff41eb.txt",
+      "type" : "text/plain",
+      "size" : 1528
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "apiTest-2"
+  }, {
+    "name" : "tag",
+    "value" : "TestGet"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "9112@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Running api test"
+  }, {
+    "name" : "story",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Running api test"
+  }, {
+    "name" : "suite",
+    "value" : "Running api test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/DemoSample.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TestGet", "apiTest-2" ]
+  },
+  "source" : "1158f0d8eda9bc17.json",
+  "parameterValues" : [ ]
+}

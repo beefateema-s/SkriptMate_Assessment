@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "1984@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "2ab68eb569ef8eb7",
+        "parentUid" : "0637c1ddb8f29d922ff18a16a7736665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661507649655,
+          "stop" : 1661507666121,
+          "duration" : 16466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+      }, {
+        "name" : "User is able to login successfully",
+        "uid" : "4a1c873d80126f06",
+        "parentUid" : "0637c1ddb8f29d922ff18a16a7736665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661507649892,
+          "stop" : 1661507666020,
+          "duration" : 16128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "0637c1ddb8f29d922ff18a16a7736665"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

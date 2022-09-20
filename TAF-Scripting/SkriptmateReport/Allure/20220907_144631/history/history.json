@@ -1,0 +1,82 @@
+{
+  "a872435a31e2e99a914d5e52069d82ec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc55b965f1c8faf2",
+      "status" : "failed",
+      "statusDetails" : "Error while entering the text for the locator: Proxy element for: DefaultElementLocator 'By.id: user-name'Exception :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#user\\-name\"}\n  (Session info: chrome=105.0.5195.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7ef4e48b871005e14779f8c9983823f1\n*** Element info: {Using=id, value=user-name}",
+      "time" : {
+        "start" : 1662541937029,
+        "stop" : 1662542153909,
+        "duration" : 216880
+      }
+    } ]
+  },
+  "525ed6ad97a7ebda1d6e0e940ac40c2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfd01fa29ff5f267",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for com.scripted.web.WebWaitHelper$1@1e3e1014 (tried for 30 second(s) with 300 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662542154213,
+        "stop" : 1662542191755,
+        "duration" : 37542
+      }
+    } ]
+  },
+  "9e87640a2f0650c33c100db4e804caa2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9441727d01568f4f",
+      "status" : "failed",
+      "statusDetails" : "Error while entering the text for the locator: Proxy element for: DefaultElementLocator 'By.id: user-name'Exception :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#user\\-name\"}\n  (Session info: chrome=105.0.5195.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7ef4e48b871005e14779f8c9983823f1\n*** Element info: {Using=id, value=user-name}",
+      "time" : {
+        "start" : 1662541936628,
+        "stop" : 1662542154113,
+        "duration" : 217485
+      }
+    } ]
+  },
+  "9f7f94b0bebd1e3e491c6120c31715e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd10778e4bc67b30",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for com.scripted.web.WebWaitHelper$1@1e3e1014 (tried for 30 second(s) with 300 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662542154215,
+        "stop" : 1662542191723,
+        "duration" : 37508
+      }
+    } ]
+  }
+}

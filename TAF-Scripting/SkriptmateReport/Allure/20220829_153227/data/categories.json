@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error occurred while launching Web URLException :org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '192.168.42.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b9b08a877a9343bb8d527b324f3fa96c",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "16ef0bb6d4041520",
+        "parentUid" : "fb64f3ff81947748d47e052f47115a22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661767337345,
+          "stop" : 1661767347424,
+          "duration" : 10079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+      }, {
+        "name" : "User is able to login successfully",
+        "uid" : "b047317ba295531f",
+        "parentUid" : "fb64f3ff81947748d47e052f47115a22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661767337766,
+          "stop" : 1661767347048,
+          "duration" : 9282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "fb64f3ff81947748d47e052f47115a22"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

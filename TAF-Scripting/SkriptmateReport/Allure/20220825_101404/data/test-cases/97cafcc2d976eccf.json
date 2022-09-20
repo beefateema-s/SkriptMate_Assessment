@@ -1,0 +1,187 @@
+{
+  "uid" : "97cafcc2d976eccf",
+  "name" : "Verify user not able to login facebook using invalid credentials",
+  "fullName" : "Login: Verify user not able to login facebook using invalid credentials",
+  "historyId" : "864e27f99f26dd39026c5cde269e0d8d",
+  "time" : {
+    "start" : 1661402619590,
+    "stop" : 1661402644636,
+    "duration" : 25046
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "CommonStepdef.driverSetup()",
+    "time" : {
+      "start" : 1661402619590,
+      "stop" : 1661402623059,
+      "duration" : 3469
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I launched facebook application",
+      "time" : {
+        "start" : 1661402623061,
+        "stop" : 1661402624691,
+        "duration" : 1630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I enter username as \"test@fb.com\" and password as \"Test123\"",
+      "time" : {
+        "start" : 1661402624692,
+        "stop" : 1661402625319,
+        "duration" : 627
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I click on log in button",
+      "time" : {
+        "start" : 1661402625319,
+        "stop" : 1661402644375,
+        "duration" : 19056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I should not login",
+      "time" : {
+        "start" : 1661402644376,
+        "stop" : 1661402644419,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CommonStepdef.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1661402644419,
+      "stop" : 1661402644636,
+      "duration" : 217
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test-1"
+  }, {
+    "name" : "tag",
+    "value" : "Web"
+  }, {
+    "name" : "tag",
+    "value" : "Demo"
+  }, {
+    "name" : "tag",
+    "value" : "Training"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QP1H4JR"
+  }, {
+    "name" : "thread",
+    "value" : "20080@DESKTOP-QP1H4JR.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Verify user not able to login facebook using invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Features.Web.Facebook.Login"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user not able to login facebook using invalid credentials"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Web/Facebook/Login.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "",
+    "value" : ""
+  }, {
+    "name" : "password",
+    "value" : "Test123"
+  }, {
+    "name" : "username",
+    "value" : "test@fb.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Training", "Demo", "Web", "Test-1" ]
+  },
+  "source" : "97cafcc2d976eccf.json",
+  "parameterValues" : [ "", "Test123", "test@fb.com" ]
+}

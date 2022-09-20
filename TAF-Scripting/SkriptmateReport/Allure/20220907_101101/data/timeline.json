@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "17252@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "92a4d4d013a07100",
+        "parentUid" : "0923e8c55956d89063075cab0c1bb48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662525442513,
+          "stop" : 1662525621206,
+          "duration" : 178693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "44e5bc2ea73bafb3",
+        "parentUid" : "0923e8c55956d89063075cab0c1bb48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662525621222,
+          "stop" : 1662525661153,
+          "duration" : 39931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "45dbdb6bb6811065",
+        "parentUid" : "0923e8c55956d89063075cab0c1bb48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662525621222,
+          "stop" : 1662525661136,
+          "duration" : 39914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "4920b86b9c892cde",
+        "parentUid" : "0923e8c55956d89063075cab0c1bb48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662525443099,
+          "stop" : 1662525621084,
+          "duration" : 177985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      } ],
+      "uid" : "0923e8c55956d89063075cab0c1bb48e"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

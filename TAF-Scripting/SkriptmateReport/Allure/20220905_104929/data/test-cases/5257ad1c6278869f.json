@@ -1,0 +1,305 @@
+{
+  "uid" : "5257ad1c6278869f",
+  "name" : "User is able to purchase items successfully",
+  "fullName" : "Simple Successful Purchase: User is able to purchase items successfully",
+  "historyId" : "757c08b3acd55410fcccba99db1cf1c6",
+  "time" : {
+    "start" : 1662355076868,
+    "stop" : 1662355168827,
+    "duration" : 91959
+  },
+  "status" : "failed",
+  "statusMessage" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.click(WebHandlers.java:162)\r\n\tat com.scripted.Pages.SauceLab.SauceLabCheckoutStepTwoPage.clickOnFinish(SauceLabCheckoutStepTwoPage.java:43)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.iClickOnFinish(SauceLabStepDef.java:71)\r\n\tat ✽.I click on finish(file:Features/Web/SauceLab/SimpleSuccesfulPurchase.feature:16)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "CommonStepdef.driverSetup()",
+    "time" : {
+      "start" : 1662355076869,
+      "stop" : 1662355081204,
+      "duration" : 4335
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+    "statusTrace" : "junit.framework.AssertionFailedError: Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.click(WebHandlers.java:162)\r\n\tat com.scripted.Pages.SauceLab.SauceLabCheckoutStepTwoPage.clickOnFinish(SauceLabCheckoutStepTwoPage.java:43)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.iClickOnFinish(SauceLabStepDef.java:71)\r\n\tat ✽.I click on finish(file:Features/Web/SauceLab/SimpleSuccesfulPurchase.feature:16)\r\n",
+    "steps" : [ {
+      "name" : "Given  I launched sauce lab application",
+      "time" : {
+        "start" : 1662355081206,
+        "stop" : 1662355086697,
+        "duration" : 5491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I enter username as \"standard_user\"",
+      "time" : {
+        "start" : 1662355086698,
+        "stop" : 1662355087013,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I enter password as \"secret_sauce\"",
+      "time" : {
+        "start" : 1662355087013,
+        "stop" : 1662355087238,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I click on sauce lab log in button",
+      "time" : {
+        "start" : 1662355087238,
+        "stop" : 1662355107482,
+        "duration" : 20244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I select an item",
+      "time" : {
+        "start" : 1662355107483,
+        "stop" : 1662355107562,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on Add to cart button",
+      "time" : {
+        "start" : 1662355107562,
+        "stop" : 1662355127620,
+        "duration" : 20058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I view my shopping cart",
+      "time" : {
+        "start" : 1662355127620,
+        "stop" : 1662355127704,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on checkout",
+      "time" : {
+        "start" : 1662355127704,
+        "stop" : 1662355147812,
+        "duration" : 20108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I input my details",
+      "time" : {
+        "start" : 1662355147812,
+        "stop" : 1662355148151,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  select continue",
+      "time" : {
+        "start" : 1662355148151,
+        "stop" : 1662355168291,
+        "duration" : 20140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on finish",
+      "time" : {
+        "start" : 1662355168291,
+        "stop" : 1662355168303,
+        "duration" : 12
+      },
+      "status" : "failed",
+      "statusMessage" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+      "statusTrace" : "junit.framework.AssertionFailedError: Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.click(WebHandlers.java:162)\r\n\tat com.scripted.Pages.SauceLab.SauceLabCheckoutStepTwoPage.clickOnFinish(SauceLabCheckoutStepTwoPage.java:43)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.iClickOnFinish(SauceLabStepDef.java:71)\r\n\tat ✽.I click on finish(file:Features/Web/SauceLab/SimpleSuccesfulPurchase.feature:16)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CommonStepdef.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1662355168304,
+      "stop" : 1662355168825,
+      "duration" : 521
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c06595636bcbc95",
+      "name" : "Screenshot",
+      "source" : "6c06595636bcbc95.png",
+      "type" : "image/png",
+      "size" : 35273
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test-2"
+  }, {
+    "name" : "tag",
+    "value" : "Web"
+  }, {
+    "name" : "tag",
+    "value" : "Demo"
+  }, {
+    "name" : "tag",
+    "value" : "Training"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "8912@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Simple Successful Purchase"
+  }, {
+    "name" : "story",
+    "value" : "User is able to purchase items successfully"
+  }, {
+    "name" : "package",
+    "value" : "Features.Web.SauceLab.Simple Successful Purchase"
+  }, {
+    "name" : "suite",
+    "value" : "Simple Successful Purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to purchase items successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Web/SauceLab/SimpleSuccesfulPurchase.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "secret_sauce"
+  }, {
+    "name" : "username",
+    "value" : "standard_user"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Training", "Demo", "Web", "Test-2" ]
+  },
+  "source" : "5257ad1c6278869f.json",
+  "parameterValues" : [ "secret_sauce", "standard_user" ]
+}

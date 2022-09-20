@@ -1,0 +1,304 @@
+{
+  "uid" : "d8686a198c541c98",
+  "name" : "User is able to purchase items successfully",
+  "fullName" : "Simple Successful Purchase: User is able to purchase items successfully",
+  "historyId" : "757c08b3acd55410fcccba99db1cf1c6",
+  "time" : {
+    "start" : 1662366621669,
+    "stop" : 1662366771955,
+    "duration" : 150286
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "CommonStepdef.driverSetup()",
+    "time" : {
+      "start" : 1662366621671,
+      "stop" : 1662366627111,
+      "duration" : 5440
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I launched sauce lab application",
+      "time" : {
+        "start" : 1662366627114,
+        "stop" : 1662366631749,
+        "duration" : 4635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I enter username as \"standard_user\"",
+      "time" : {
+        "start" : 1662366631749,
+        "stop" : 1662366649689,
+        "duration" : 17940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I enter password as \"secret_sauce\"",
+      "time" : {
+        "start" : 1662366649689,
+        "stop" : 1662366649913,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I click on sauce lab log in button",
+      "time" : {
+        "start" : 1662366649914,
+        "stop" : 1662366670193,
+        "duration" : 20279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I select items",
+      "time" : {
+        "start" : 1662366670194,
+        "stop" : 1662366710441,
+        "duration" : 40247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I view my shopping cart",
+      "time" : {
+        "start" : 1662366710441,
+        "stop" : 1662366710538,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  validate items in cart",
+      "time" : {
+        "start" : 1662366710538,
+        "stop" : 1662366710749,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on checkout",
+      "time" : {
+        "start" : 1662366710749,
+        "stop" : 1662366730833,
+        "duration" : 20084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I input my details",
+      "time" : {
+        "start" : 1662366730833,
+        "stop" : 1662366731179,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  select continue",
+      "time" : {
+        "start" : 1662366731179,
+        "stop" : 1662366751294,
+        "duration" : 20115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I validate order details",
+      "time" : {
+        "start" : 1662366751295,
+        "stop" : 1662366751366,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on finish",
+      "time" : {
+        "start" : 1662366751366,
+        "stop" : 1662366771454,
+        "duration" : 20088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 12,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CommonStepdef.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1662366771455,
+      "stop" : 1662366771954,
+      "duration" : 499
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test-2"
+  }, {
+    "name" : "tag",
+    "value" : "Web"
+  }, {
+    "name" : "tag",
+    "value" : "Demo"
+  }, {
+    "name" : "tag",
+    "value" : "Training"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "9816@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Simple Successful Purchase"
+  }, {
+    "name" : "story",
+    "value" : "User is able to purchase items successfully"
+  }, {
+    "name" : "package",
+    "value" : "Features.Web.SauceLab.Simple Successful Purchase"
+  }, {
+    "name" : "suite",
+    "value" : "Simple Successful Purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to purchase items successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Web/SauceLab/SimpleSuccesfulPurchase.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "secret_sauce"
+  }, {
+    "name" : "username",
+    "value" : "standard_user"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Training", "Demo", "Web", "Test-2" ]
+  },
+  "source" : "d8686a198c541c98.json",
+  "parameterValues" : [ "secret_sauce", "standard_user" ]
+}

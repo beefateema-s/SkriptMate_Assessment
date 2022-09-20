@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"io.restassured.response.Response.asString()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "59947200a290ea18",
+        "parentUid" : "bb6ed02651d8980975d3b70f1594eed7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663064867114,
+          "stop" : 1663064869173,
+          "duration" : 2059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running api test\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "46157810afb58d9a",
+        "parentUid" : "bb6ed02651d8980975d3b70f1594eed7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663064867493,
+          "stop" : 1663064869033,
+          "duration" : 1540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb6ed02651d8980975d3b70f1594eed7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "76b8044e61cf7432",
+  "name" : "Sample POST method API test",
+  "time" : {
+    "start" : 1661755672624,
+    "stop" : 1661755673329,
+    "duration" : 705
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "527e321a8ff7e9f4",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661755672366,
+    "stop" : 1661755673453,
+    "duration" : 1087
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

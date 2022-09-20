@@ -1,0 +1,42 @@
+{
+  "757c08b3acd55410fcccba99db1cf1c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52e6978504cfcf37",
+      "status" : "failed",
+      "statusDetails" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+      "time" : {
+        "start" : 1662355311930,
+        "stop" : 1662355403243,
+        "duration" : 91313
+      }
+    } ]
+  },
+  "61181b812e48124e96e27f436c0f80f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3c576f62c6e5e59",
+      "status" : "failed",
+      "statusDetails" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+      "time" : {
+        "start" : 1662355311666,
+        "stop" : 1662355403494,
+        "duration" : 91828
+      }
+    } ]
+  }
+}

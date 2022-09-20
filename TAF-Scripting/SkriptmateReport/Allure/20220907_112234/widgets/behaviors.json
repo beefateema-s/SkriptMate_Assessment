@@ -1,0 +1,26 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "ab051acc5e35cd49b4013e9344c37a25",
+    "name" : "Simple Successful Purchase",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a0ec2ee437dfc8187d35ba0baeb2659b",
+    "name" : "Unsuccessful Login",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

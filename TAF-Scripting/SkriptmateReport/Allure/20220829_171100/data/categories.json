@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"String.contains(java.lang.CharSequence)\" because \"this.contentType\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "ee89f0c7cb336d05",
+        "parentUid" : "d13da9ec4eb62b971bce84af159d72a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661773259100,
+          "stop" : 1661773260155,
+          "duration" : 1055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "ea6bfef1c1ef4afb",
+        "parentUid" : "d13da9ec4eb62b971bce84af159d72a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661773259349,
+          "stop" : 1661773260035,
+          "duration" : 686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d13da9ec4eb62b971bce84af159d72a2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

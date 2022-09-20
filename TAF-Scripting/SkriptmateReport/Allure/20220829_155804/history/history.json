@@ -1,0 +1,42 @@
+{
+  "c4babb48157a7be83ea91a72b7cfcf20" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f4ece066095e5c",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"org.json.JSONObject.toString()\" because the return value of \"com.scripted.api.RequestParams.getJsonbody()\" is null",
+      "time" : {
+        "start" : 1661768883157,
+        "stop" : 1661768884186,
+        "duration" : 1029
+      }
+    } ]
+  },
+  "b13816004f542d41a0ddb4e98cde2a48" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46a9e7430c18776a",
+      "status" : "failed",
+      "statusDetails" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"org.json.JSONObject.toString()\" because the return value of \"com.scripted.api.RequestParams.getJsonbody()\" is null",
+      "time" : {
+        "start" : 1661768883422,
+        "stop" : 1661768884068,
+        "duration" : 646
+      }
+    } ]
+  }
+}

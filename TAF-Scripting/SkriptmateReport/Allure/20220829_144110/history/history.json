@@ -1,0 +1,158 @@
+{
+  "893082e91463945b434649cb5860f8dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e0bdaefa14a0d86",
+      "status" : "broken",
+      "statusDetails" : "'java.lang.String com.fasterxml.jackson.databind.util.BeanUtil.okNameForSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod, boolean)'",
+      "time" : {
+        "start" : 1661764268697,
+        "stop" : 1661764268726,
+        "duration" : 29
+      }
+    } ]
+  },
+  "fc6841cc372a271252f1e5e2dbfcfe58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74c0b07a098baf8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661764268767,
+        "stop" : 1661764270032,
+        "duration" : 1265
+      }
+    } ]
+  },
+  "f655c1a0451ec035e4db555f8a717a8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d686b9d6baedf2c0",
+      "status" : "broken",
+      "statusDetails" : "'java.lang.String com.fasterxml.jackson.databind.util.BeanUtil.okNameForSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod, boolean)'",
+      "time" : {
+        "start" : 1661764268264,
+        "stop" : 1661764268654,
+        "duration" : 390
+      }
+    } ]
+  },
+  "3eb77817515707b37798734331868006" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed6cb64e1a8db49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661764265087,
+        "stop" : 1661764268246,
+        "duration" : 3159
+      }
+    } ]
+  },
+  "fee83e03d205a47774fa9c5d7910c3f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fde60743ccb432d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661764265363,
+        "stop" : 1661764268155,
+        "duration" : 2792
+      }
+    } ]
+  },
+  "c4babb48157a7be83ea91a72b7cfcf20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e10e6dddda3586ee",
+      "status" : "broken",
+      "statusDetails" : "'java.lang.String com.fasterxml.jackson.databind.util.BeanUtil.okNameForSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod, boolean)'",
+      "time" : {
+        "start" : 1661764268260,
+        "stop" : 1661764268683,
+        "duration" : 423
+      }
+    } ]
+  },
+  "43cc13f820258a90750ea0ecc4775e54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab0d99bf304a864",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661764268768,
+        "stop" : 1661764270007,
+        "duration" : 1239
+      }
+    } ]
+  },
+  "2daa17cbed6b471565d44ba10a617712" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1b561ae3d0454ec",
+      "status" : "broken",
+      "statusDetails" : "'java.lang.String com.fasterxml.jackson.databind.util.BeanUtil.okNameForSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod, boolean)'",
+      "time" : {
+        "start" : 1661764268696,
+        "stop" : 1661764268752,
+        "duration" : 56
+      }
+    } ]
+  }
+}

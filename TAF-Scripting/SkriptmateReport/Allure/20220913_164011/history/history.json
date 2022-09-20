@@ -1,0 +1,42 @@
+{
+  "4e233408d1f33b885c8864210dbc5ccc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fce69bf48f760b7e",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document",
+      "time" : {
+        "start" : 1663067408506,
+        "stop" : 1663067411436,
+        "duration" : 2930
+      }
+    } ]
+  },
+  "6c90e6d7814a34ccaa8f2670d5a07833" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35cb70b0c8562c71",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document",
+      "time" : {
+        "start" : 1663067408232,
+        "stop" : 1663067411680,
+        "duration" : 3448
+      }
+    } ]
+  }
+}

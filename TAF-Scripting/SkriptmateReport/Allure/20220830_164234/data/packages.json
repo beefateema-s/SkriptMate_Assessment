@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.WebTestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "a8e0c0dd50d7a468",
+      "parentUid" : "6ab7c2200dcccf8a0ae254c65b2da055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661857920751,
+        "stop" : 1661857954459,
+        "duration" : 33708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+    } ],
+    "uid" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "Features.Web.SauceLab.Login",
+    "children" : [ {
+      "name" : "User is able to login successfully",
+      "uid" : "3e048cb7210bd4be",
+      "parentUid" : "3cc0858c9fe397885c4d624f649fad2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661857921023,
+        "stop" : 1661857954329,
+        "duration" : 33306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret_sauce", "standard_user" ]
+    } ],
+    "uid" : "Features.Web.SauceLab.Login"
+  } ]
+}

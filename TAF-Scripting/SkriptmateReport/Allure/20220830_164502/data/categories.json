@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"com.scripted.Pages.Common.LoginPage.launchSauceUrl()\" because \"this.login\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "8dfba7ade9f6ebc",
+        "parentUid" : "ec94afb62779137bad8637bf58856f8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661858101832,
+          "stop" : 1661858102271,
+          "duration" : 439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "659a8dd5144a28d5",
+        "parentUid" : "ec94afb62779137bad8637bf58856f8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661858102131,
+          "stop" : 1661858102161,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "ec94afb62779137bad8637bf58856f8b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

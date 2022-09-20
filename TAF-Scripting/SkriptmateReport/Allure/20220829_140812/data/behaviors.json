@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "acdf0be83ab32883",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1661762291624,
+      "stop" : 1661762292622,
+      "duration" : 998
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample DELETE method API test\"", "\"Sample GET method API test\"" ]
+  }, {
+    "name" : "Sample GET method API test",
+    "children" : [ {
+      "name" : "Sample DELETE method API test",
+      "children" : [ {
+        "name" : "Sample DELETE method API test",
+        "uid" : "804d2f5103d7b49b",
+        "parentUid" : "0b13b231450936051702ea421477970c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661762291870,
+          "stop" : 1661762292516,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b13b231450936051702ea421477970c"
+    } ],
+    "uid" : "cf8f1f8142333a4d769aa69c9a75a885"
+  } ]
+}

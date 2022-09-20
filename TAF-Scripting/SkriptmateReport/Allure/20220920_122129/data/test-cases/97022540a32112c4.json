@@ -1,0 +1,163 @@
+{
+  "uid" : "97022540a32112c4",
+  "name" : "Sample DELETE method API test",
+  "fullName" : "Running all api tests: Sample DELETE method API test",
+  "historyId" : "179810000c1e7eab9a42132ae424d4b",
+  "time" : {
+    "start" : 1663656687714,
+    "stop" : 1663656688356,
+    "duration" : 642
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1663656687715,
+      "stop" : 1663656687719,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Delete\" API",
+      "time" : {
+        "start" : 1663656687719,
+        "stop" : 1663656687719,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I send a \"Delete\" Request with \"SampleDELETEApi\" properties",
+      "time" : {
+        "start" : 1663656687720,
+        "stop" : 1663656688345,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I should get response code 204",
+      "time" : {
+        "start" : 1663656688345,
+        "stop" : 1663656688346,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1663656688346,
+      "stop" : 1663656688356,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb5382222928c526",
+      "name" : "Screenshot",
+      "source" : "bb5382222928c526.bin",
+      "type" : "application/octet-stream",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "apiTest"
+  }, {
+    "name" : "tag",
+    "value" : "TestDelete"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "14344@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Running all api tests"
+  }, {
+    "name" : "story",
+    "value" : "Sample DELETE method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Running all api tests"
+  }, {
+    "name" : "suite",
+    "value" : "Running all api tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample DELETE method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TestDelete", "apiTest" ]
+  },
+  "source" : "97022540a32112c4.json",
+  "parameterValues" : [ ]
+}

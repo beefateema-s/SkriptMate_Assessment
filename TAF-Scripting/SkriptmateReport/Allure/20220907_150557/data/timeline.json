@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "11676@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "a5c393d407fe83c1",
+        "parentUid" : "172be629a62bd987a6e104a8e4124062",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662543350365,
+          "stop" : 1662543357122,
+          "duration" : 6757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "a6d6e96cdf4a9533",
+        "parentUid" : "172be629a62bd987a6e104a8e4124062",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662543251368,
+          "stop" : 1662543350186,
+          "duration" : 98818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "bae049cbf2a41fcb",
+        "parentUid" : "172be629a62bd987a6e104a8e4124062",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662543350369,
+          "stop" : 1662543357100,
+          "duration" : 6731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "a02aaae4f8528ba4",
+        "parentUid" : "172be629a62bd987a6e104a8e4124062",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662543251067,
+          "stop" : 1662543350346,
+          "duration" : 99279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      } ],
+      "uid" : "172be629a62bd987a6e104a8e4124062"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

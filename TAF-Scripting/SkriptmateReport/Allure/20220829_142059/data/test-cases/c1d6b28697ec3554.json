@@ -1,0 +1,160 @@
+{
+  "uid" : "c1d6b28697ec3554",
+  "name" : "Sample GET method API test",
+  "fullName" : "Sample GET method API test: Sample GET method API test",
+  "historyId" : "fee83e03d205a47774fa9c5d7910c3f6",
+  "time" : {
+    "start" : 1661763054926,
+    "stop" : 1661763058070,
+    "duration" : 3144
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1661763054927,
+      "stop" : 1661763055540,
+      "duration" : 613
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Get\" API",
+      "time" : {
+        "start" : 1661763055542,
+        "stop" : 1661763055546,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send a \"Get\" Request with \"SampleGETApi\" properties",
+      "time" : {
+        "start" : 1661763055546,
+        "stop" : 1661763058052,
+        "duration" : 2506
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should get response code 200",
+      "time" : {
+        "start" : 1661763058052,
+        "stop" : 1661763058055,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1661763058055,
+      "stop" : 1661763058069,
+      "duration" : 14
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f8ab36b1545cb920",
+      "name" : "Screenshot",
+      "source" : "f8ab36b1545cb920.txt",
+      "type" : "text/plain",
+      "size" : 1030
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TestGet"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "4744@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "story",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Sample GET method API test"
+  }, {
+    "name" : "suite",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TestGet" ]
+  },
+  "source" : "c1d6b28697ec3554.json",
+  "parameterValues" : [ ]
+}

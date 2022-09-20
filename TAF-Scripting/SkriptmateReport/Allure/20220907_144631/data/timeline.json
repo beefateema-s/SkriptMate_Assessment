@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "15964@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "dfd01fa29ff5f267",
+        "parentUid" : "1e6ae476ff1e537eafadcc88c7593a54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662542154213,
+          "stop" : 1662542191755,
+          "duration" : 37542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "cd10778e4bc67b30",
+        "parentUid" : "1e6ae476ff1e537eafadcc88c7593a54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662542154215,
+          "stop" : 1662542191723,
+          "duration" : 37508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "cc55b965f1c8faf2",
+        "parentUid" : "1e6ae476ff1e537eafadcc88c7593a54",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662541937029,
+          "stop" : 1662542153909,
+          "duration" : 216880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "9441727d01568f4f",
+        "parentUid" : "1e6ae476ff1e537eafadcc88c7593a54",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662541936628,
+          "stop" : 1662542154113,
+          "duration" : 217485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      } ],
+      "uid" : "1e6ae476ff1e537eafadcc88c7593a54"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

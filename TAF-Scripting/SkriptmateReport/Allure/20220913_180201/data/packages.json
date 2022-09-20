@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.scripted.runners.APITestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "995498bab8287ecf",
+      "parentUid" : "a0d3d4e5cc06bd708ce9eef5ad387068",
+      "status" : "broken",
+      "time" : {
+        "start" : 1663072319012,
+        "stop" : 1663072321790,
+        "duration" : 2778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Sample GET method API test\"", "\"Running api test\"" ]
+    } ],
+    "uid" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "Features.Webservices.Running api test",
+    "children" : [ {
+      "name" : "Sample GET method API test",
+      "uid" : "dc26a9cc9248f3dc",
+      "parentUid" : "a44e7d81b91a261133ad75dbaf500881",
+      "status" : "broken",
+      "time" : {
+        "start" : 1663072319306,
+        "stop" : 1663072321681,
+        "duration" : 2375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Features.Webservices.Running api test"
+  } ]
+}

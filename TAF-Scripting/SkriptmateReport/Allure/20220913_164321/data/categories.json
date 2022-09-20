@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Step [I send a {string} Request with {string} properties with dynamic parameters] is defined with 2 parameters at 'com.scripted.apistepdefs.stepdefinitions.updateUrlPathWithPropertiesWithDynamicParameters(String,DataTable) in file:/C:/Users/188680/Downloads/SkJavaConsumerDirect-CodeClenUp/SkJavaConsumerDirect-CodeClenUp/TAF-Scripting/target/test-classes/'.\nHowever, the gherkin step has 3 arguments:\n * \"Get\"\n * \"DemoSample\"\n * Table:\n      | TouristId | 149428 |\n      | accountId | 123456 |\n\nStep text: I send a \"Get\" Request with \"DemoSample\" properties with dynamic parameters",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "f3bc07c40f90962f",
+        "parentUid" : "e0520fa464446b7eab497e770cfb7717",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663067600659,
+          "stop" : 1663067601846,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running api test\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "71a1ee18741cc2f1",
+        "parentUid" : "e0520fa464446b7eab497e770cfb7717",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663067600939,
+          "stop" : 1663067601701,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0520fa464446b7eab497e770cfb7717"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

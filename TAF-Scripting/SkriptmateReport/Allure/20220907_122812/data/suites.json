@@ -1,0 +1,55 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SkJavaConsumerDirect-CodeClenUp",
+      "children" : [ {
+        "name" : "com.scripted.runners.WebTestRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "b9b6df8268959245",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662533738428,
+            "stop" : 1662533892411,
+            "duration" : 153983
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+        } ],
+        "uid" : "ee106fcd23d1babae1102c2acc28cf6c"
+      } ],
+      "uid" : "1ea5b7153960a422d5dea4e1e63e4d39"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Successful Purchase",
+    "children" : [ {
+      "name" : "User is able to purchase items successfully",
+      "uid" : "192b48e7def783c8",
+      "parentUid" : "1ee159174024816cca86d860a1f0fc69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662533738725,
+        "stop" : 1662533892228,
+        "duration" : 153503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+    } ],
+    "uid" : "1ee159174024816cca86d860a1f0fc69"
+  } ]
+}

@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <version>2005000</version>
+    <userDir/>
+    <connection>
+                        		
+        
+        
+        <proxyChain>
+                                    			
+            
+            
+            <hostName/>
+                                    			
+            
+            
+            <port>8080</port>
+                                    			
+			
+            
+            
+            <realm/>
+                                    			
+            
+            
+            <userName/>
+                                    			
+            
+            
+            <password/>
+                                    		
+			
+            
+            
+            <prompt>false</prompt>
+                                    		
+            
+            
+            <enabled>false</enabled>
+                                    
+        
+        
+        </proxyChain>
+                        		
+        
+        
+        <auth/>
+                        		
+        
+        
+        <securityProtocolsEnabled>
+                                    			
+            
+            
+            <protocol>SSLv3</protocol>
+                                    			
+            
+            
+            <protocol>TLSv1</protocol>
+                                    			
+            
+            
+            <protocol>TLSv1.1</protocol>
+                                    			
+            
+            
+            <protocol>TLSv1.2</protocol>
+                                    		
+        
+        
+        </securityProtocolsEnabled>
+                        	
+        
+        
+        <timeoutInSecs>20</timeoutInSecs>
+                        
+    
+    
+    </connection>
+    <proxy>
+                        		
+        
+        
+        <ip>127.0.0.1</ip>
+                        		
+        
+        
+        <port>61389</port>
+                        		
+        
+        
+        <reverseProxy>
+                                    			
+            
+            
+            <use>0</use>
+                                    	
+			
+            
+            
+            <ip>localhost</ip>
+                                    			
+            
+            
+            <httpPort>80</httpPort>
+                                    			
+            
+            
+            <httpsPort>443</httpsPort>
+                                    		
+        
+        
+        </reverseProxy>
+                        		
+		
+        
+        
+        <securityProtocolsEnabled>
+                                    			
+            
+            
+            <protocol>SSLv3</protocol>
+                                    			
+            
+            
+            <protocol>TLSv1</protocol>
+                                    			
+            
+            
+            <protocol>TLSv1.1</protocol>
+                                    			
+            
+            
+            <protocol>TLSv1.2</protocol>
+                                    		
+        
+        
+        </securityProtocolsEnabled>
+                        	
+        
+        
+        <removeUnsupportedEncodings>true</removeUnsupportedEncodings>
+                        
+    
+    
+    </proxy>
+    <view>
+                        		
+        
+        
+        <processImages>0</processImages>
+                        		
+        
+        
+        <displayOption>1</displayOption>
+                        		
+        
+        
+        <editorView>2</editorView>
+                        		
+        
+        
+        <brkPanelView>0</brkPanelView>
+                        		
+        
+        
+        <showMainToolbar>1</showMainToolbar>
+                        	
+        
+        
+        <mode>attack</mode>
+                        
+    
+    
+    </view>
+    <start>
+                                
+        
+        
+        <checkForUpdates>false</checkForUpdates>
+                            
+        
+        
+        <dayLastChecked/>
+                        
+    
+    
+    </start>
+    <certificate>
+                        		
+        
+        
+        <use>0</use>
+                        		
+        
+        
+        <clientCertLocation/>
+                        		
+        
+        
+        <experimentalSlotListIndex>false</experimentalSlotListIndex>
+                        	
+    
+    
+    </certificate>
+    <spider>
+                        		
+        
+        
+        <thread>10</thread>
+                        		
+        
+        
+        <maxDepth>5</maxDepth>
+                        		
+		
+        
+        
+        <postform>true</postform>
+                        		
+        
+        
+        <processform>true</processform>
+                        		
+        
+        
+        <sendCookies>false</sendCookies>
+                        		
+        
+        
+        <skipurl/>
+                        		
+        
+        
+        <requestwait>200</requestwait>
+                        		
+        
+        
+        <parseComments>true</parseComments>
+                        		
+        
+        
+        <parseRobotsTxt>true</parseRobotsTxt>
+                        	
+        
+        
+        <handleParameters>USE_ALL</handleParameters>
+                        
+    
+    
+    </spider>
+    <scanner>
+                        		
+        
+        
+        <hostPerScan>2</hostPerScan>
+                        		
+        
+        
+        <threadPerHost>20</threadPerHost>
+                        	
+    
+    
+    </scanner>
+    <portscan>
+                        		
+        
+        
+        <threadPerHost>5</threadPerHost>
+                        		
+        
+        
+        <maxPort>10240</maxPort>
+                        	
+    
+    
+    </portscan>
+    <pscans>
+                        		
+        
+        
+        <autoTagScanners>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_tag_form</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Form</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>&lt;form</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_tag_password</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Password</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>&lt;password\s</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_type_password</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Password</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>type\s*=\s*['"]?password['"]?</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_type_hidden</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Hidden</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>type\s*=\s*['"]?hidden['"]?</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_type_upload</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Upload</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>type\s*=\s*['"]?file['"]?</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_tag_object</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Object</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>&lt;object\s</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_tag_script</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Script</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>&lt;script</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_mailto</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>MailTo</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>&lt;.*href\s*['"]?mailto:</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_setcookie</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>SetCookie</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex>set-cookie</resHeadRegex>
+                                                				
+                
+                
+                <resBodyRegex/>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_comment1</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Comment</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>/\*</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>html_comment2</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>Comment</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex/>
+                                                				
+                
+                
+                <resBodyRegex>&lt;!--</resBodyRegex>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    			
+            
+            
+            <scanner>
+                                                				
+                
+                
+                <name>response_json</name>
+                                                				
+                
+                
+                <type>TAG</type>
+                                                				
+                
+                
+                <config>JSON</config>
+                                                				
+                
+                
+                <reqUrlRegex/>
+                                                				
+                
+                
+                <reqHeadRegex/>
+                                                				
+                
+                
+                <resHeadRegex>type\s*:\s*application\/json</resHeadRegex>
+                                                				
+                
+                
+                <resBodyRegex/>
+                                                				
+                
+                
+                <enabled>true</enabled>
+                                                			
+            
+            
+            </scanner>
+                                    		
+        
+        
+        </autoTagScanners>
+                        	
+    
+    
+    </pscans>
+    <addons>
+                        
+        
+        
+        <block/>
+                        
+    
+    
+    </addons>
+    <api>
+                        
+        
+        
+        <key>zapapisecret</key>
+                        
+    
+    
+    </api>
+    <reveal version="1">
+                        
+        
+        
+        <enabled>false</enabled>
+                        
+    
+    
+    </reveal>
+    <ajaxSpider version="3"/>
+    <rules>
+                        
+        
+        
+        <common>
+                                    
+            
+            
+            <sleep>15</sleep>
+                                    
+        
+        
+        </common>
+                        
+        
+        
+        <csrf>
+                                    
+            
+            
+            <ignorelist/>
+                                    
+            
+            
+            <ignore>
+                                                
+                
+                
+                <attname/>
+                                                
+                
+                
+                <attvalue/>
+                                                
+            
+            
+            </ignore>
+                                    
+        
+        
+        </csrf>
+                        
+        
+        
+        <cookie>
+                                    
+            
+            
+            <ignorelist/>
+                                    
+        
+        
+        </cookie>
+                        
+    
+    
+    </rules>
+    <fuzz version="1">
+                        
+        
+        
+        <defaultThreadsPerFuzzer>5</defaultThreadsPerFuzzer>
+                        
+        
+        
+        <defaultCategoryName/>
+                        
+        
+        
+        <defaultFuzzDelayInMs>0</defaultFuzzDelayInMs>
+                        
+        
+        
+        <customFuzzerLastSelectedDirectory/>
+                        
+    
+    
+    </fuzz>
+    <selenium version="1">
+                        
+        
+        
+        <chromeDriver>C:\Users\U65557\git\ScriptedRepo\TAF-Scripting\src\main\resources\Security\zap\tmp\webdriver\windows\32\chromedriver.exe</chromeDriver>
+                        
+        
+        
+        <firefoxDriver>C:\Users\U65557\git\ScriptedRepo\TAF-Scripting\src\main\resources\Security\zap\tmp\webdriver\windows\64\geckodriver.exe</firefoxDriver>
+                        
+        
+        
+        <ieDriver>C:\Users\U65557\git\ScriptedRepo\TAF-Scripting\src\main\resources\Security\zap\tmp\webdriver\windows\64\IEDriverServer.exe</ieDriver>
+                        
+    
+    
+    </selenium>
+    <plugins>
+                        
+        
+        
+        <p6>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p6>
+                        
+        
+        
+        <p7>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p7>
+                        
+        
+        
+        <p40009>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40009>
+                        
+        
+        
+        <p40012>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40012>
+                        
+        
+        
+        <p40014>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40014>
+                        
+        
+        
+        <p40018>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40018>
+                        
+        
+        
+        <p90019>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90019>
+                        
+        
+        
+        <p90020>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90020>
+                        
+        
+        
+        <p0>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p0>
+                        
+        
+        
+        <p20019>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20019>
+                        
+        
+        
+        <p30001>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p30001>
+                        
+        
+        
+        <p30002>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p30002>
+                        
+        
+        
+        <p40003>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40003>
+                        
+        
+        
+        <p40008>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40008>
+                        
+        
+        
+        <p40016>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40016>
+                        
+        
+        
+        <p40017>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40017>
+                        
+        
+        
+        <p50000>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p50000>
+                        
+        
+        
+        <p42>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p42>
+                        
+        
+        
+        <p10045>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10045>
+                        
+        
+        
+        <p10048>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10048>
+                        
+        
+        
+        <p20012>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20012>
+                        
+        
+        
+        <p20015>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20015>
+                        
+        
+        
+        <p20016>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20016>
+                        
+        
+        
+        <p20017>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20017>
+                        
+        
+        
+        <p20018>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20018>
+                        
+        
+        
+        <p40013>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40013>
+                        
+        
+        
+        <p40019>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40019>
+                        
+        
+        
+        <p40020>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40020>
+                        
+        
+        
+        <p40021>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40021>
+                        
+        
+        
+        <p40022>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40022>
+                        
+        
+        
+        <p90018>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90018>
+                        
+        
+        
+        <p90021>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90021>
+                        
+        
+        
+        <p90023>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90023>
+                        
+        
+        
+        <p90024>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90024>
+                        
+        
+        
+        <p90025>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90025>
+                        
+        
+        
+        <p10095>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10095>
+                        
+        
+        
+        <p30003>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p30003>
+                        
+        
+        
+        <p90028>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90028>
+                        
+        
+        
+        <p20014>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p20014>
+                        
+        
+        
+        <p40023>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40023>
+                        
+        
+        
+        <p41>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p41>
+                        
+        
+        
+        <p43>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p43>
+                        
+        
+        
+        <p10107>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10107>
+                        
+        
+        
+        <p40015>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40015>
+                        
+        
+        
+        <p40024>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40024>
+                        
+        
+        
+        <p40027>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40027>
+                        
+        
+        
+        <p60100>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p60100>
+                        
+        
+        
+        <p60101>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p60101>
+                        
+        
+        
+        <p10051>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10051>
+                        
+        
+        
+        <p10053>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10053>
+                        
+        
+        
+        <p10104>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10104>
+                        
+        
+        
+        <p10106>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10106>
+                        
+        
+        
+        <p40025>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40025>
+                        
+        
+        
+        <p40028>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40028>
+                        
+        
+        
+        <p40029>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p40029>
+                        
+        
+        
+        <p10047>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p10047>
+                        
+        
+        
+        <p90027>
+                                    
+            
+            
+            <enabled>true</enabled>
+                                    
+        
+        
+        </p90027>
+                        
+    
+    
+    </plugins>
+    <dynssl>
+                        
+        
+        
+        <param>
+                                    
+            
+            
+            <rootca>_u3-7QAAAAIAAAABAAAAAQARb3dhc3BfemFwX3Jvb3RfY2EAAAF2GTDI4wAABQMwggT_MA4GCisGAQQBKgIRAQEFAASCBOuAVw5jwin5s8s2bMh71sI_xC3T1qJrcFdezZw8P_83hjmb2QXIEW1DKzPNbWOZ-L2NrCRjsOfvrNFAEYrN_nIc6zt80H-VoXW9T9JL9isgEp1DS1KO4A_Z9GOoO0Ps1iZVAu0F8a2idlCdiwlabn05eiy5SkYUW7_Zlcxtfi2ZsR7hhdrtC-8wBcrHXGiiMgHPdWd3cliQTn54l21Mxd0pMqixkN_GbQRw_oomW3yoWLoiisyBWmdV5EKLItL2KYtbzmX_U620tBuRMvfEGssIM7Jx9Ll4rgs0Vj1Xbs3R9Ro1U9Ekd9ITv6HbDJKSLcJaqx53QkC7af8_XRdpsv3iIXqUxVS45MFfEipDE3xnchJYATx7o4kFQ9PNfUo5BK8F9UI8dyJOE4JDIj32wrVADBKWbl59cr3cIyWpvcezNhOu8v92rCUNwk53yUs28IRKiwEBsgI2wiRL20cFdyD-dLup7NJSafls-5xckfD22-j6e2JDawu0LMPNcAcXPasgqsVHQtYZ5-vjmJBWqqIGTsXy6LcuxLSTAjJXu3CL11YQ4N2ok_uc-_zQ3kkP1KNCbW1x_YChYvqtesksAC-F5LqkEoIdu_UfjQRkw2JDED9UtApWDgu4Rb6KCTJjnIozVJmGz66YJB9sEjJBocoplvXcnwBfKWWN27PgU7Bfs5fB91nT0uSvHJCdHldcn4NSWsC2-bKr9U-takZ2v0AHrJ7iXqvsuAckw94_xuSmrJz-_7Oeqdc6QazuR5V08P_1wz0DLaFsQTwQvA-O8Jwz_l9SVILEM20LJL8DlWLeE5nj3FrRCgmJfdQxstyFa1BTU7zFDuHP7qSdhhWO2u8z1LcE2DKHEK63bRBgXoCxjILSCtPs69SliNqdTjtRlqewHDMTAcsvcMoTg2nqF5Z4txPORpuRiw5RHRpeMnGj_ou6HAdX98DrWtvfwt4V6hTDCAXulufyXZ7EF-Hvw2LfCsOhvYEQnxIEKj8sQcc0rFZNOLT4vJOxyThiMibaBCHRWh4WP6PiMos3yv4XxIWzG-wCu3dmWv-y-Bn44TKGTcGPkPRaz3f8dFbBWySTAEy7Cm8cuJvRh0k3sbSiSjwTLD97X0AinQ0PXuiW9cJGSKHdC9vMbnwmOllnMU8YEj533ZPkQPDEZ29lrnmC6Q1L_cpMp4ygsDSGWoGLK7Z6Cc0AP2-MFIhZONvnmmr85jPBNZDhcMsPu6LILwHcEqXdraNrgkB7dKQjOUQbQTSL0QI0Eh6S5MWnDvFh6jLTjOVIp6LELYTafzmUjTiD2EsHHm4lgKgsPoe96pTCM3yvkYtKnxjbn-wejhpWhDch0Fc7X89IPRfurHs4oDsed7JaDw0mxDtGHADLUhYR5_2W6dlDRS4pLBMGm7eL3hdC0j-WKDi4tBDIcjEvXdg62g8TXmRqYggSpi9mq4DMBOEAjePGhCy9tM-qNZzYqtuooAE6g57dMKhVBYZAbCKs4IDLmY8vsQpU-AaMMos3b5Y5x5mUf2keeTFBmQyTh5bONSLSVVDN_BEvEVFBTKneFuWrIWzZizYV8SM_wSjcuevoYkjWal7EiHKhqJXHnwVOLFuOTFhuloiDb1Bg5uYrdvYMozGdcjFfSHkuZOi0HW9YmvF84ZDQdGx0vPGXIpsU6f9xV72jiGM5_8yxkAAAAAEABVguNTA5AAAFDjCCBQowggPyoAMCAQICBBNnwPkwDQYJKoZIhvcNAQELBQAwgYUxJzAlBgNVBAMMHk9XQVNQIFplZCBBdHRhY2sgUHJveHkgUm9vdCBDQTEZMBcGA1UEBwwQOTQxZGM3NDM4MGYwNTMxYzEWMBQGA1UECgwNT1dBU1AgUm9vdCBDQTEaMBgGA1UECwwRT1dBU1AgWkFQIFJvb3QgQ0ExCzAJBgNVBAYTAnh4MB4XDTIwMTEzMDEyNDYzNVoXDTIxMTEzMDEyNDYzNVowgYUxJzAlBgNVBAMMHk9XQVNQIFplZCBBdHRhY2sgUHJveHkgUm9vdCBDQTEZMBcGA1UEBwwQOTQxZGM3NDM4MGYwNTMxYzEWMBQGA1UECgwNT1dBU1AgUm9vdCBDQTEaMBgGA1UECwwRT1dBU1AgWkFQIFJvb3QgQ0ExCzAJBgNVBAYTAnh4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuS8PiA0zFRwTsLqM0BF0tL7PADLh0QPiQVXz0jeRfMzvydREH65sEAsQX86i8w8bQ1TrYLqubUzldQdF4xv3-CiKTkOHUOuoD8DCywXOXEHp7aXNvYyPIcQOqWbwQ-gBgMfRb0tHb0sZbhipcQq5LDRjy5Jr3JQtzxSZWaHcYXdqLmKrWYmgtWlV6vQeGddAJSRsKBbP0ecux-IgsONuGkEHik68vtwFE4Ouh1Cc0lKJvVzUixQMt1jUaLL_phkj6852o_1rPkfrNz1i7mJd0DD8ocYkTxQbP90MqQZOVtvgMOCyhd14BOg-5JFtYVSiuMrkgT_KC8p2b0eeDvIRFwIDAQABo4IBfjCCAXowggEzBgNVHQ4EggEqBIIBJjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALkvD4gNMxUcE7C6jNARdLS-zwAy4dED4kFV89I3kXzM78nURB-ubBALEF_OovMPG0NU62C6rm1M5XUHReMb9_goik5Dh1DrqA_AwssFzlxB6e2lzb2MjyHEDqlm8EPoAYDH0W9LR29LGW4YqXEKuSw0Y8uSa9yULc8UmVmh3GF3ai5iq1mJoLVpVer0HhnXQCUkbCgWz9HnLsfiILDjbhpBB4pOvL7cBRODrodQnNJSib1c1IsUDLdY1Giy_6YZI-vOdqP9az5H6zc9Yu5iXdAw_KHGJE8UGz_dDKkGTlbb4DDgsoXdeAToPuSRbWFUorjK5IE_ygvKdm9Hng7yERcCAwEAATAPBgNVHRMBAf8EBTADAQH_MAsGA1UdDwQEAwIBtjAjBgNVHSUEHDAaBggrBgEFBQcDAQYIKwYBBQUHAwIGBFUdJQAwDQYJKoZIhvcNAQELBQADggEBADEbjtyBPw5wh58n9PQwV14OqY75GSkHdaWtBqCRvh-234c81gCo4EGAxY1bUjUGeIv0VEhSLnQx5iv939jGWu2diHrUpcbzdf7DKgKLbBwCXg-a-3dPYSzSHM5A9OiZuBQoC1-zBcIV6cN3maFW4ycUBBHBM9OC8y3NxRn1CM-KGKbRZsot_i9SdoJHIHtW8cVDkLxp2cl7I-ec-Q1LSqHd0VRUd83avO_m8F-K5iocvvGyCxpmwFt5MjoW93d56neC8-RgzZPZ-iq4tnuT_ItDUnOqhTH5w_MC8KMxdGRtVP561OFgv8w3zgEYpH3JAuHpnKSVA7QrsOdXtjruv-m4YSjeBDJCJCnQTXYFAhJ7aA6JQA</rootca>
+                                    
+        
+        
+        </param>
+                        
+    
+    
+    </dynssl>
+    
+    <runnableAddOns>
+        <addon>
+            <id>zest</id>
+            <version>23</version>
+        </addon>
+        <addon>
+            <id>ascanrulesAlpha</id>
+            <version>19</version>
+        </addon>
+        <addon>
+            <id>help</id>
+            <version>7</version>
+        </addon>
+        <addon>
+            <id>webdriverlinux</id>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>coreLang</id>
+            <version>11</version>
+        </addon>
+        <addon>
+            <id>directorylistv1</id>
+            <version>3</version>
+        </addon>
+        <addon>
+            <id>pscanrules</id>
+            <version>19</version>
+        </addon>
+        <addon>
+            <id>quickstart</id>
+            <version>19</version>
+        </addon>
+        <addon>
+            <id>spiderAjax</id>
+            <version>17</version>
+        </addon>
+        <addon>
+            <id>jxbrowserlinux32</id>
+            <version>1</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.jxbrowserlinux32.selenium.ExtSelJxBrowserLinux32</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>jxbrowserwindows</id>
+            <version>1</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.jxbrowserwindows.selenium.ExtSelJxBrowserWindows</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>selenium</id>
+            <version>10</version>
+        </addon>
+        <addon>
+            <id>onlineMenu</id>
+            <version>5</version>
+        </addon>
+        <addon>
+            <id>ascanrulesBeta</id>
+            <version>21</version>
+        </addon>
+        <addon>
+            <id>pscanrulesBeta</id>
+            <version>16</version>
+        </addon>
+        <addon>
+            <id>jxbrowsermacos</id>
+            <version>1</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.jxbrowsermacos.selenium.ExtSelJxBrowserMacOs</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>replacer</id>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>reveal</id>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>diff</id>
+            <version>7</version>
+        </addon>
+        <addon>
+            <id>webdriverwindows</id>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>invoke</id>
+            <version>6</version>
+        </addon>
+        <addon>
+            <id>websocket</id>
+            <version>12</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.websocket.fuzz.ExtensionWebSocketFuzzer</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>webdrivermacos</id>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>gettingStarted</id>
+            <version>6</version>
+        </addon>
+        <addon>
+            <id>ascanrules</id>
+            <version>26</version>
+        </addon>
+        <addon>
+            <id>jxbrowserlinux64</id>
+            <version>1</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.jxbrowserlinux64.selenium.ExtSelJxBrowserLinux64</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>saverawmessage</id>
+            <version>3</version>
+        </addon>
+        <addon>
+            <id>bruteforce</id>
+            <version>6</version>
+        </addon>
+        <addon>
+            <id>scripts</id>
+            <version>18</version>
+        </addon>
+        <addon>
+            <id>sqliplugin</id>
+            <version>11</version>
+        </addon>
+        <addon>
+            <id>alertFilters</id>
+            <version>4</version>
+        </addon>
+        <addon>
+            <id>fuzz</id>
+            <version>8</version>
+        </addon>
+        <addon>
+            <id>jxbrowser</id>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>tips</id>
+            <version>6</version>
+        </addon>
+    </runnableAddOns>
+</config>

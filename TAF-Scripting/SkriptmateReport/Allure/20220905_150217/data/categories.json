@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 1 out of bounds for length 1",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "f4d5099e116ac0ef",
+        "parentUid" : "9d417e3bac78e5fe6d1a4832206dbf0e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662370185764,
+          "stop" : 1662370337087,
+          "duration" : 151323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "ff541e12c7c75260",
+        "parentUid" : "9d417e3bac78e5fe6d1a4832206dbf0e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662370186037,
+          "stop" : 1662370336660,
+          "duration" : 150623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "9d417e3bac78e5fe6d1a4832206dbf0e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

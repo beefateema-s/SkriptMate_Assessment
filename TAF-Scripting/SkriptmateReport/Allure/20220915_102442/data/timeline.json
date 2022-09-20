@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "14132@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "94b1dac22e8fe295",
+        "parentUid" : "b1804cc51905db3d6aa9e9b0860db92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663217518572,
+          "stop" : 1663217682576,
+          "duration" : 164004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "eafd37e0d8b12cb6",
+        "parentUid" : "b1804cc51905db3d6aa9e9b0860db92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663217519171,
+          "stop" : 1663217682394,
+          "duration" : 163223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      } ],
+      "uid" : "b1804cc51905db3d6aa9e9b0860db92e"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 30 14:53:49 IST 2022","Tue Aug 30 14:54:20 IST 2022","30233","","Login","","User is able to login successfully","","User is able to login successfully",""
+"passed","Tue Aug 30 14:53:49 IST 2022","Tue Aug 30 14:54:20 IST 2022","30717","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""

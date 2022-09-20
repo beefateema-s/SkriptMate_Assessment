@@ -1,0 +1,199 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "ffb80810470d9769",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663131471406,
+      "stop" : 1663131477939,
+      "duration" : 6533
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample GET method API test\"", "\"Running all api tests\"" ]
+  }, {
+    "name" : "Running all api tests",
+    "children" : [ {
+      "name" : "Sample GET method API test",
+      "children" : [ {
+        "name" : "Sample GET method API test",
+        "uid" : "adc3dfd6614cb401",
+        "parentUid" : "5154d58242ed737d674350a927dc659c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663131472047,
+          "stop" : 1663131477820,
+          "duration" : 5773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5154d58242ed737d674350a927dc659c"
+    }, {
+      "name" : "Sample POST method API test",
+      "children" : [ {
+        "name" : "Sample POST method API test",
+        "uid" : "a83a356ae903eb6a",
+        "parentUid" : "b22875b0218a1d671f8449384624306a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663131477959,
+          "stop" : 1663131479352,
+          "duration" : 1393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b22875b0218a1d671f8449384624306a"
+    }, {
+      "name" : "Sample PUT method API test",
+      "children" : [ {
+        "name" : "Sample PUT method API test",
+        "uid" : "c67285f2d5497326",
+        "parentUid" : "d4c4e96f6447b0c61e7aba289d5bf049",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663131479383,
+          "stop" : 1663131480071,
+          "duration" : 688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4c4e96f6447b0c61e7aba289d5bf049"
+    }, {
+      "name" : "Sample DELETE method API test",
+      "children" : [ {
+        "name" : "Sample DELETE method API test",
+        "uid" : "c0125b5d3a759885",
+        "parentUid" : "1aada9b128b74d70fc455e99d30ba5ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663131480107,
+          "stop" : 1663131480739,
+          "duration" : 632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1aada9b128b74d70fc455e99d30ba5ea"
+    }, {
+      "name" : "Sample GET method API test with query parameters",
+      "children" : [ {
+        "name" : "Sample GET method API test with query parameters",
+        "uid" : "85eefa661a4b30aa",
+        "parentUid" : "29dc367882de84895f95a8acca1b30c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663131480771,
+          "stop" : 1663131481087,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29dc367882de84895f95a8acca1b30c4"
+    } ],
+    "uid" : "73056e1c745db5f579ff34b4c3e691dc"
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "60f245f019a1f6d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663131477955,
+      "stop" : 1663131479367,
+      "duration" : 1412
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample POST method API test\"", "\"Running all api tests\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "21a1db166a4ce329",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663131479383,
+      "stop" : 1663131480093,
+      "duration" : 710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample PUT method API test\"", "\"Running all api tests\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "c3b532dd34c6953d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663131480106,
+      "stop" : 1663131480755,
+      "duration" : 649
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample DELETE method API test\"", "\"Running all api tests\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "edc1f7c626d5db02",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663131480771,
+      "stop" : 1663131481118,
+      "duration" : 347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample GET method API test with query parameters\"", "\"Running all api tests\"" ]
+  } ]
+}

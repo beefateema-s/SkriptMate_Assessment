@@ -1,0 +1,41 @@
+[ {
+  "uid" : "96263e9d73ea17b",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661849688282,
+    "stop" : 1661849736636,
+    "duration" : 48354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8814f3587dcd46c",
+  "name" : "User is able to login successfully",
+  "time" : {
+    "start" : 1661849736652,
+    "stop" : 1661849769483,
+    "duration" : 32831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b80e2768352992ff",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661849736652,
+    "stop" : 1661849769489,
+    "duration" : 32837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9450066faf8dafc7",
+  "name" : "User is able to add items to cart successfully",
+  "time" : {
+    "start" : 1661849688668,
+    "stop" : 1661849736353,
+    "duration" : 47685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

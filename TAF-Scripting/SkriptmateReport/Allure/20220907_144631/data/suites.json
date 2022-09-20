@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SkJavaConsumerDirect-CodeClenUp",
+      "children" : [ {
+        "name" : "com.scripted.runners.WebTestRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "9441727d01568f4f",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1662541936628,
+            "stop" : 1662542154113,
+            "duration" : 217485
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+        }, {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "dfd01fa29ff5f267",
+          "parentUid" : "ee106fcd23d1babae1102c2acc28cf6c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1662542154213,
+            "stop" : 1662542191755,
+            "duration" : 37542
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+        } ],
+        "uid" : "ee106fcd23d1babae1102c2acc28cf6c"
+      } ],
+      "uid" : "1ea5b7153960a422d5dea4e1e63e4d39"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Successful Purchase",
+    "children" : [ {
+      "name" : "User is able to purchase items successfully",
+      "uid" : "cc55b965f1c8faf2",
+      "parentUid" : "1ee159174024816cca86d860a1f0fc69",
+      "status" : "failed",
+      "time" : {
+        "start" : 1662541937029,
+        "stop" : 1662542153909,
+        "duration" : 216880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+    } ],
+    "uid" : "1ee159174024816cca86d860a1f0fc69"
+  }, {
+    "name" : "Unsuccessful Login",
+    "children" : [ {
+      "name" : "User is unable to login successfully",
+      "uid" : "cd10778e4bc67b30",
+      "parentUid" : "02890973c4e729dd320c8a8ac80d216d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662542154215,
+        "stop" : 1662542191723,
+        "duration" : 37508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "secret", "standard_user" ]
+    } ],
+    "uid" : "02890973c4e729dd320c8a8ac80d216d"
+  } ]
+}

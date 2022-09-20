@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 30 14:25:36 IST 2022","Tue Aug 30 14:26:09 IST 2022","32831","","Login","","User is able to login successfully","","User is able to login successfully",""
+"passed","Tue Aug 30 14:24:48 IST 2022","Tue Aug 30 14:25:36 IST 2022","47685","","Add To cart","","User is able to add items to cart successfully","","User is able to add items to cart successfully",""
+"passed","Tue Aug 30 14:24:48 IST 2022","Tue Aug 30 14:25:36 IST 2022","48354","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""
+"passed","Tue Aug 30 14:25:36 IST 2022","Tue Aug 30 14:26:09 IST 2022","32837","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""

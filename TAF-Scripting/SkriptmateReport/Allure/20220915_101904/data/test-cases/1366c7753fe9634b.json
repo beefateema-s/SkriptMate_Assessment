@@ -1,0 +1,110 @@
+{
+  "uid" : "1366c7753fe9634b",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "9e87640a2f0650c33c100db4e804caa2",
+  "time" : {
+    "start" : 1663217248709,
+    "stop" : 1663217344536,
+    "duration" : 95827
+  },
+  "status" : "failed",
+  "statusMessage" : "$29.99 does not match with null",
+  "statusTrace" : "junit.framework.AssertionFailedError: $29.99 does not match with null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabStepDef.validateItemsInCart(SauceLabStepDef.java:73)\r\n\tat ✽.I validate items in cart(file:Features/Web/SauceLab/SuccessfulPurchase.feature:19)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1663217248305,
+      "stop" : 1663217248511,
+      "duration" : 206
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1663217344593,
+      "stop" : 1663217344777,
+      "duration" : 184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.WebTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "10256@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"User is able to purchase items successfully\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Successful Purchase\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1366c7753fe9634b.json",
+  "parameterValues" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+}

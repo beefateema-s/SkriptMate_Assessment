@@ -1,0 +1,42 @@
+{
+  "fee83e03d205a47774fa9c5d7910c3f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "390f881f57e1e6b4",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1661753433915,
+        "stop" : 1661753442201,
+        "duration" : 8286
+      }
+    } ]
+  },
+  "3eb77817515707b37798734331868006" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d60119aa89fddd7",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1661753433665,
+        "stop" : 1661753442308,
+        "duration" : 8643
+      }
+    } ]
+  }
+}

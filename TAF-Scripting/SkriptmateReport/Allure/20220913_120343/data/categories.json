@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Mismatch in the response - JsonPath : job expected:<zion resident> but was:<Kochi>",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "978a8740f0b191d1",
+        "parentUid" : "fb63a490df9ff7cca782faaf1510ea76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663050818633,
+          "stop" : 1663050823662,
+          "duration" : 5029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample PUT method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample PUT method API test",
+        "uid" : "214a26452bfcf1f2",
+        "parentUid" : "fb63a490df9ff7cca782faaf1510ea76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663050818896,
+          "stop" : 1663050823546,
+          "duration" : 4650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb63a490df9ff7cca782faaf1510ea76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

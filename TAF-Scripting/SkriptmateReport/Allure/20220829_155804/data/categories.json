@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while trying to create requestjava.lang.NullPointerException: Cannot invoke \"org.json.JSONObject.toString()\" because the return value of \"com.scripted.api.RequestParams.getJsonbody()\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "2f4ece066095e5c",
+        "parentUid" : "faf254b86de18751ee23771fc7d9a77e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661768883157,
+          "stop" : 1661768884186,
+          "duration" : 1029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "46a9e7430c18776a",
+        "parentUid" : "faf254b86de18751ee23771fc7d9a77e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661768883422,
+          "stop" : 1661768884068,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "faf254b86de18751ee23771fc7d9a77e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

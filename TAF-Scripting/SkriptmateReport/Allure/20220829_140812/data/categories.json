@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Response code, Exception :java.lang.NullPointerException: Cannot invoke \"io.restassured.response.Response.getStatusCode()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "acdf0be83ab32883",
+        "parentUid" : "34e3297469096f49d3a80d3bda718a51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661762291624,
+          "stop" : 1661762292622,
+          "duration" : 998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample DELETE method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample DELETE method API test",
+        "uid" : "804d2f5103d7b49b",
+        "parentUid" : "34e3297469096f49d3a80d3bda718a51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661762291870,
+          "stop" : 1661762292516,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34e3297469096f49d3a80d3bda718a51"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

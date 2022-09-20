@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "15912@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "ac7aa8f473ece95",
+        "parentUid" : "c50228834d4cc6934f9f0de51ed3041d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662369809497,
+          "stop" : 1662369972821,
+          "duration" : 163324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "85731db3b0aee191",
+        "parentUid" : "c50228834d4cc6934f9f0de51ed3041d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662369809796,
+          "stop" : 1662369972307,
+          "duration" : 162511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "c50228834d4cc6934f9f0de51ed3041d"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

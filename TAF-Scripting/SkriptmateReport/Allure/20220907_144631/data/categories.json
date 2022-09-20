@@ -1,0 +1,89 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while entering the text for the locator: Proxy element for: DefaultElementLocator 'By.id: user-name'Exception :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#user\\-name\"}\n  (Session info: chrome=105.0.5195.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\188680\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7ef4e48b871005e14779f8c9983823f1\n*** Element info: {Using=id, value=user-name}",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "9441727d01568f4f",
+        "parentUid" : "9ccd02b05325c606fc252e041932d227",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662541936628,
+          "stop" : 1662542154113,
+          "duration" : 217485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "cc55b965f1c8faf2",
+        "parentUid" : "9ccd02b05325c606fc252e041932d227",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662541937029,
+          "stop" : 1662542153909,
+          "duration" : 216880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      } ],
+      "uid" : "9ccd02b05325c606fc252e041932d227"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for com.scripted.web.WebWaitHelper$1@1e3e1014 (tried for 30 second(s) with 300 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "dfd01fa29ff5f267",
+        "parentUid" : "d743043589aa21d14d86411747f8824b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662542154213,
+          "stop" : 1662542191755,
+          "duration" : 37542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "cd10778e4bc67b30",
+        "parentUid" : "d743043589aa21d14d86411747f8824b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662542154215,
+          "stop" : 1662542191723,
+          "duration" : 37508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      } ],
+      "uid" : "d743043589aa21d14d86411747f8824b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "97cafcc2d976eccf",
+  "name" : "Verify user not able to login facebook using invalid credentials",
+  "time" : {
+    "start" : 1661402619590,
+    "stop" : 1661402644636,
+    "duration" : 25046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a762ffa2ca813b18",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661402619320,
+    "stop" : 1661402644744,
+    "duration" : 25424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

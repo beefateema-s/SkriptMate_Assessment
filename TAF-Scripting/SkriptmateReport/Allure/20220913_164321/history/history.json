@@ -1,0 +1,42 @@
+{
+  "4e233408d1f33b885c8864210dbc5ccc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71a1ee18741cc2f1",
+      "status" : "broken",
+      "statusDetails" : "Step [I send a {string} Request with {string} properties with dynamic parameters] is defined with 2 parameters at 'com.scripted.apistepdefs.stepdefinitions.updateUrlPathWithPropertiesWithDynamicParameters(String,DataTable) in file:/C:/Users/188680/Downloads/SkJavaConsumerDirect-CodeClenUp/SkJavaConsumerDirect-CodeClenUp/TAF-Scripting/target/test-classes/'.\nHowever, the gherkin step has 3 arguments:\n * \"Get\"\n * \"DemoSample\"\n * Table:\n      | TouristId | 149428 |\n      | accountId | 123456 |\n\nStep text: I send a \"Get\" Request with \"DemoSample\" properties with dynamic parameters",
+      "time" : {
+        "start" : 1663067600939,
+        "stop" : 1663067601701,
+        "duration" : 762
+      }
+    } ]
+  },
+  "6c90e6d7814a34ccaa8f2670d5a07833" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3bc07c40f90962f",
+      "status" : "broken",
+      "statusDetails" : "Step [I send a {string} Request with {string} properties with dynamic parameters] is defined with 2 parameters at 'com.scripted.apistepdefs.stepdefinitions.updateUrlPathWithPropertiesWithDynamicParameters(String,DataTable) in file:/C:/Users/188680/Downloads/SkJavaConsumerDirect-CodeClenUp/SkJavaConsumerDirect-CodeClenUp/TAF-Scripting/target/test-classes/'.\nHowever, the gherkin step has 3 arguments:\n * \"Get\"\n * \"DemoSample\"\n * Table:\n      | TouristId | 149428 |\n      | accountId | 123456 |\n\nStep text: I send a \"Get\" Request with \"DemoSample\" properties with dynamic parameters",
+      "time" : {
+        "start" : 1663067600659,
+        "stop" : 1663067601846,
+        "duration" : 1187
+      }
+    } ]
+  }
+}

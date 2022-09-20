@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while trying to read file Exception :org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]",
+      "children" : [ {
+        "name" : "teardown",
+        "uid" : "b49fc0aeebc794f0",
+        "parentUid" : "05ef77de8c6f6407e96f691264f09226",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663217753827,
+          "stop" : 1663217753827,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05ef77de8c6f6407e96f691264f09226"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

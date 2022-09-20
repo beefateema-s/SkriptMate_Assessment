@@ -1,0 +1,101 @@
+[ {
+  "uid" : "4c9e27e33737ff86",
+  "name" : "Sample DELETE method API test",
+  "time" : {
+    "start" : 1663230213363,
+    "stop" : 1663230214490,
+    "duration" : 1127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8169e0c5ca7f9928",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663230205406,
+    "stop" : 1663230210720,
+    "duration" : 5314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d3968f39d8ce59d",
+  "name" : "Sample PUT method API test",
+  "time" : {
+    "start" : 1663230212395,
+    "stop" : 1663230213347,
+    "duration" : 952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "783f9b9c42e1c803",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663230213362,
+    "stop" : 1663230214510,
+    "duration" : 1148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33c836e357c36d0a",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663230214522,
+    "stop" : 1663230215287,
+    "duration" : 765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0ba88ce3ad6b8d9",
+  "name" : "Sample GET method API test",
+  "time" : {
+    "start" : 1663230205784,
+    "stop" : 1663230210620,
+    "duration" : 4836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6b4b37da96ea1fe",
+  "name" : "Sample GET method API test with query parameters",
+  "time" : {
+    "start" : 1663230214523,
+    "stop" : 1663230215273,
+    "duration" : 750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d795a5b6685b412",
+  "name" : "Sample POST method API test",
+  "time" : {
+    "start" : 1663230210738,
+    "stop" : 1663230212365,
+    "duration" : 1627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a88add7fa01f0a0e",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663230210735,
+    "stop" : 1663230212388,
+    "duration" : 1653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "377f951ce3b967c5",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663230212394,
+    "stop" : 1663230213356,
+    "duration" : 962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

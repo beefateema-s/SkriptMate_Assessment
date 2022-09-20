@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Mismatch in the response - JsonPath : job expected:<leader> but was:<Kochi>",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "1bdb9d53f1ea16d9",
+        "parentUid" : "454452d9037c4d8cfa0303f05b82d13a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663575669912,
+          "stop" : 1663575670750,
+          "duration" : 838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample PATCH method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample PATCH method API test",
+        "uid" : "14160cfb91845480",
+        "parentUid" : "454452d9037c4d8cfa0303f05b82d13a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663575669912,
+          "stop" : 1663575670712,
+          "duration" : 800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "454452d9037c4d8cfa0303f05b82d13a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,121 @@
+[ {
+  "uid" : "2e14d4971c1d246b",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663575668110,
+    "stop" : 1663575668905,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5102506ed9128b2",
+  "name" : "Sample GET method API test with query parameters",
+  "time" : {
+    "start" : 1663575669565,
+    "stop" : 1663575669880,
+    "duration" : 315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bdb9d53f1ea16d9",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663575669912,
+    "stop" : 1663575670750,
+    "duration" : 838
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebed3baa9fa0ee8e",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663575668918,
+    "stop" : 1663575669552,
+    "duration" : 634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39ca610ec573a042",
+  "name" : "Sample POST method API test",
+  "time" : {
+    "start" : 1663575666659,
+    "stop" : 1663575668073,
+    "duration" : 1414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df2c6ec7df30ffcb",
+  "name" : "Sample GET method API test",
+  "time" : {
+    "start" : 1663575661496,
+    "stop" : 1663575666534,
+    "duration" : 5038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5619c630ed54c8",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663575669564,
+    "stop" : 1663575669899,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e077fb9543d3a88",
+  "name" : "Sample DELETE method API test",
+  "time" : {
+    "start" : 1663575668919,
+    "stop" : 1663575669531,
+    "duration" : 612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f9b567bea8a35fc",
+  "name" : "Sample PUT method API test",
+  "time" : {
+    "start" : 1663575668111,
+    "stop" : 1663575668883,
+    "duration" : 772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14160cfb91845480",
+  "name" : "Sample PATCH method API test",
+  "time" : {
+    "start" : 1663575669912,
+    "stop" : 1663575670712,
+    "duration" : 800
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce99c7ed286ac22e",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663575660982,
+    "stop" : 1663575666641,
+    "duration" : 5659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85bb5da61de8a383",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663575666656,
+    "stop" : 1663575668097,
+    "duration" : 1441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

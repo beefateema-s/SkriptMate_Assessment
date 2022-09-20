@@ -1,0 +1,181 @@
+{
+  "uid" : "65b9870dddad8b82",
+  "name" : "Sample PUT method API test",
+  "fullName" : "Sample GET method API test: Sample PUT method API test",
+  "historyId" : "893082e91463945b434649cb5860f8dc",
+  "time" : {
+    "start" : 1661764325622,
+    "stop" : 1661764326987,
+    "duration" : 1365
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1661764325622,
+      "stop" : 1661764325626,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Put\" API",
+      "time" : {
+        "start" : 1661764325626,
+        "stop" : 1661764325626,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"",
+      "time" : {
+        "start" : 1661764325627,
+        "stop" : 1661764326929,
+        "duration" : 1302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I should get response code 200",
+      "time" : {
+        "start" : 1661764326929,
+        "stop" : 1661764326929,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1661764326930,
+        "stop" : 1661764326977,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c53cbbb902a2c34a",
+        "name" : "Data table",
+        "source" : "c53cbbb902a2c34a.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1661764326977,
+      "stop" : 1661764326987,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a064ecce446359d8",
+      "name" : "Screenshot",
+      "source" : "a064ecce446359d8.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TestPut"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "17000@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "story",
+    "value" : "Sample PUT method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Sample GET method API test"
+  }, {
+    "name" : "suite",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample PUT method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TestPut" ]
+  },
+  "source" : "65b9870dddad8b82.json",
+  "parameterValues" : [ ]
+}

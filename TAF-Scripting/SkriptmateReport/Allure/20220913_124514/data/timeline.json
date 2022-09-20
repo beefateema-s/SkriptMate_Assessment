@@ -1,0 +1,183 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "2784@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Sample DELETE method API test",
+        "uid" : "3f469b9863fdb540",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053312337,
+          "stop" : 1663053313082,
+          "duration" : 745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sample PUT method API test",
+        "uid" : "62406e2969a3adf3",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053311501,
+          "stop" : 1663053312303,
+          "duration" : 802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "bc3a95eb1fde4a3e",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053313115,
+          "stop" : 1663053313790,
+          "duration" : 675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test with query parameters\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample GET method API test with query parameters",
+        "uid" : "a05fd5ca6d89634e",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053313116,
+          "stop" : 1663053313770,
+          "duration" : 654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "5027cea26fee34fc",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053306469,
+          "stop" : 1663053309034,
+          "duration" : 2565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "823e24db46cf171",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053311500,
+          "stop" : 1663053312324,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample PUT method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "2652e7e713cc5ce9",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053312336,
+          "stop" : 1663053313103,
+          "duration" : 767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample DELETE method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "b3542867ac324d68",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053309048,
+          "stop" : 1663053311485,
+          "duration" : 2437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Running all api tests\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "76eed18cc18ec056",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053306736,
+          "stop" : 1663053308928,
+          "duration" : 2192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "ac31fe72b228ba78",
+        "parentUid" : "14ca86a1a3a5321be84c3703d5aba80a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663053309052,
+          "stop" : 1663053311461,
+          "duration" : 2409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14ca86a1a3a5321be84c3703d5aba80a"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

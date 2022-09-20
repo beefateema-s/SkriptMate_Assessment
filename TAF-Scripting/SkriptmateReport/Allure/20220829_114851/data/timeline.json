@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "8464@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "8026f227df117256",
+        "parentUid" : "a7ecf6c2c3d769db80fbe4549d2b6f82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661753924738,
+          "stop" : 1661753931334,
+          "duration" : 6596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "973cfb21dfb0701e",
+        "parentUid" : "a7ecf6c2c3d769db80fbe4549d2b6f82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661753924972,
+          "stop" : 1661753931232,
+          "duration" : 6260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7ecf6c2c3d769db80fbe4549d2b6f82"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

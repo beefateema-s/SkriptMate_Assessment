@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while set the Url path : java.lang.NullPointerException: Cannot invoke \"java.lang.CharSequence.toString()\" because \"replacement\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "551e3e92f1ea52e",
+        "parentUid" : "7a6ff6eeb4042f18e2d1b04fb7d121b5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663072376234,
+          "stop" : 1663072378997,
+          "duration" : 2763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running api test\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "202b170bc020fdd6",
+        "parentUid" : "7a6ff6eeb4042f18e2d1b04fb7d121b5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663072376478,
+          "stop" : 1663072378885,
+          "duration" : 2407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a6ff6eeb4042f18e2d1b04fb7d121b5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

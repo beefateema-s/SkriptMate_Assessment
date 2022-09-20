@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "53cce2ba372d9fb4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661767358662,
+      "stop" : 1661767391823,
+      "duration" : 33161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "User is able to login successfully",
+      "children" : [ {
+        "name" : "User is able to login successfully",
+        "uid" : "480c07f72f7e8607",
+        "parentUid" : "b3639c6b95ffabd69d0a43d2254dee4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661767358894,
+          "stop" : 1661767391696,
+          "duration" : 32802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "b3639c6b95ffabd69d0a43d2254dee4b"
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while performing the click action for the locator: nullException :java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.click()\" because \"locator\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "f3c576f62c6e5e59",
+        "parentUid" : "58c7e3f8b0cfe2155647e30999c5125f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662355311666,
+          "stop" : 1662355403494,
+          "duration" : 91828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "52e6978504cfcf37",
+        "parentUid" : "58c7e3f8b0cfe2155647e30999c5125f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662355311930,
+          "stop" : 1662355403243,
+          "duration" : 91313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "58c7e3f8b0cfe2155647e30999c5125f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

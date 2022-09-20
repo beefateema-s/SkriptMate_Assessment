@@ -1,0 +1,191 @@
+{
+  "uid" : "fc43d30fb6788e9b",
+  "name" : "Sample PUT method API test",
+  "fullName" : "Sample GET method API test: Sample PUT method API test",
+  "historyId" : "893082e91463945b434649cb5860f8dc",
+  "time" : {
+    "start" : 1661763769239,
+    "stop" : 1661763769269,
+    "duration" : 30
+  },
+  "status" : "failed",
+  "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+  "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:111)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:113)\r\n\tat ✽.I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:23)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1661763769239,
+      "stop" : 1661763769241,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+    "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:111)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:113)\r\n\tat ✽.I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:23)\r\n",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Put\" API",
+      "time" : {
+        "start" : 1661763769241,
+        "stop" : 1661763769242,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"",
+      "time" : {
+        "start" : 1661763769242,
+        "stop" : 1661763769245,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null",
+      "statusTrace" : "junit.framework.AssertionFailedError: Error while trying to create requestjava.lang.IllegalArgumentException: parametersMap cannot be null\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:111)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:113)\r\n\tat ✽.I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:23)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should get response code 200",
+      "time" : {
+        "start" : 1661763769245,
+        "stop" : 1661763769246,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1661763769246,
+        "stop" : 1661763769257,
+        "duration" : 11
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65757ef8f5e87a77",
+        "name" : "Data table",
+        "source" : "65757ef8f5e87a77.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1661763769257,
+      "stop" : 1661763769268,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e23a6c0d4aeca523",
+      "name" : "Screenshot",
+      "source" : "e23a6c0d4aeca523.txt",
+      "type" : "text/plain",
+      "size" : 1030
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TestPut"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "7696@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "story",
+    "value" : "Sample PUT method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Sample GET method API test"
+  }, {
+    "name" : "suite",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample PUT method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "TestPut" ]
+  },
+  "source" : "fc43d30fb6788e9b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-QP1H4JR",
+    "children" : [ {
+      "name" : "2520@DESKTOP-QP1H4JR.main(1)",
+      "children" : [ {
+        "name" : "User is able to login successfully",
+        "uid" : "5ee4c3b184c44c32",
+        "parentUid" : "095605aebc3a4d6a279271c2fdd9cd82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661407574777,
+          "stop" : 1661407580436,
+          "duration" : 5659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "ff6049d47c10dee0",
+        "parentUid" : "095605aebc3a4d6a279271c2fdd9cd82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661407574447,
+          "stop" : 1661407580612,
+          "duration" : 6165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+      } ],
+      "uid" : "095605aebc3a4d6a279271c2fdd9cd82"
+    } ],
+    "uid" : "5ee010b2afa12d4e29b4251774d2aa5c"
+  } ]
+}

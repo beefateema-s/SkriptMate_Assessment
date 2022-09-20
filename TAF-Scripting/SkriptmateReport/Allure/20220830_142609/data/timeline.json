@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "12736@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "96263e9d73ea17b",
+        "parentUid" : "852368e89e8d46c83fa3a4e4ca778781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661849688282,
+          "stop" : 1661849736636,
+          "duration" : 48354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to add items to cart successfully\"", "\"Add To cart\"" ]
+      }, {
+        "name" : "User is able to login successfully",
+        "uid" : "c8814f3587dcd46c",
+        "parentUid" : "852368e89e8d46c83fa3a4e4ca778781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661849736652,
+          "stop" : 1661849769483,
+          "duration" : 32831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "b80e2768352992ff",
+        "parentUid" : "852368e89e8d46c83fa3a4e4ca778781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661849736652,
+          "stop" : 1661849769489,
+          "duration" : 32837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to login successfully\"", "\"Login\"" ]
+      }, {
+        "name" : "User is able to add items to cart successfully",
+        "uid" : "9450066faf8dafc7",
+        "parentUid" : "852368e89e8d46c83fa3a4e4ca778781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661849688668,
+          "stop" : 1661849736353,
+          "duration" : 47685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "852368e89e8d46c83fa3a4e4ca778781"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/TAF-Accessibility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Accessibility/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-ClientPerf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-ClientPerf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-GenericUtility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-GenericUtility/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-MicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-MicroService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Mobile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Mobile/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Reporting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Reporting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Scripting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Scripting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-SelfHealing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-SelfHealing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-UILayout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-UILayout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-Web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-WebServices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TAF-WebServices/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

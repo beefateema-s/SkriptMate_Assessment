@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2b9baac4133211dd",
+  "name" : "User is able to purchase items successfully",
+  "time" : {
+    "start" : 1661858412031,
+    "stop" : 1661858457263,
+    "duration" : 45232
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c6150ac3bf25b885",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1661858411741,
+    "stop" : 1661858457373,
+    "duration" : 45632
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

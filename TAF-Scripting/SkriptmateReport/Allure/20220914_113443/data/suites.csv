@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 14 11:34:33 IST 2022","Wed Sep 14 11:34:43 IST 2022","9924","","Running all api tests","","Sample DELETE method API test","","Sample DELETE method API test",""
+"passed","Wed Sep 14 11:34:33 IST 2022","Wed Sep 14 11:34:43 IST 2022","10495","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.APITestRunner","com.scripted.runners.APITestRunner","runScenario","Runs Cucumber Scenarios",""

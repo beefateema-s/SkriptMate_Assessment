@@ -1,0 +1,162 @@
+{
+  "38fa9e59dff4ba013cac926af88077e3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1aa86e9bc7ad8e52",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958058415,
+        "stop" : 1662958064680,
+        "duration" : 6265
+      }
+    } ]
+  },
+  "6aaac200a71f93b8895d8ce896e4a833" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f952f6c717f73d44",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958058417,
+        "stop" : 1662958064659,
+        "duration" : 6242
+      }
+    } ]
+  },
+  "cfd826b876cd78e12e8a3e8e752f75d4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e3c9b28b8f03d6e",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958017826,
+        "stop" : 1662958045503,
+        "duration" : 27677
+      }
+    } ]
+  },
+  "f655c1a0451ec035e4db555f8a717a8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88fd1330ffafba34",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958045550,
+        "stop" : 1662958052098,
+        "duration" : 6548
+      }
+    } ]
+  },
+  "fee83e03d205a47774fa9c5d7910c3f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80946a317647292d",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958018507,
+        "stop" : 1662958045394,
+        "duration" : 26887
+      }
+    } ]
+  },
+  "ff653c0219f22826ab195c519eed4a5f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d12a290de966ec0",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958052134,
+        "stop" : 1662958058401,
+        "duration" : 6267
+      }
+    } ]
+  },
+  "9adb34bbd4275179101a5414c727b09c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1df609b4f1b47a9",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958045546,
+        "stop" : 1662958052120,
+        "duration" : 6574
+      }
+    } ]
+  },
+  "179810000c1e7eab9a42132ae424d4b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7c66921fa7b9561",
+      "status" : "failed",
+      "statusDetails" : "Fail to send the request, Exception :java.net.ConnectException: Connection refused: connect",
+      "time" : {
+        "start" : 1662958052135,
+        "stop" : 1662958058377,
+        "duration" : 6242
+      }
+    } ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "fc6841cc372a271252f1e5e2dbfcfe58" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acdf0be83ab32883",
+      "status" : "failed",
+      "statusDetails" : "Response code, Exception :java.lang.NullPointerException: Cannot invoke \"io.restassured.response.Response.getStatusCode()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+      "time" : {
+        "start" : 1661762291624,
+        "stop" : 1661762292622,
+        "duration" : 998
+      }
+    } ]
+  },
+  "43cc13f820258a90750ea0ecc4775e54" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "804d2f5103d7b49b",
+      "status" : "failed",
+      "statusDetails" : "Response code, Exception :java.lang.NullPointerException: Cannot invoke \"io.restassured.response.Response.getStatusCode()\" because \"com.scripted.api.RestAssuredWrapper.apiResponse\" is null",
+      "time" : {
+        "start" : 1661762291870,
+        "stop" : 1661762292516,
+        "duration" : 646
+      }
+    } ]
+  }
+}

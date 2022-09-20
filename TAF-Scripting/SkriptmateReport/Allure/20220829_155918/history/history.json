@@ -1,0 +1,42 @@
+{
+  "c4babb48157a7be83ea91a72b7cfcf20" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee98ffabce8794a6",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null",
+      "time" : {
+        "start" : 1661768953468,
+        "stop" : 1661768957891,
+        "duration" : 4423
+      }
+    } ]
+  },
+  "b13816004f542d41a0ddb4e98cde2a48" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcc1cceb7ef2159c",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null",
+      "time" : {
+        "start" : 1661768953741,
+        "stop" : 1661768957789,
+        "duration" : 4048
+      }
+    } ]
+  }
+}

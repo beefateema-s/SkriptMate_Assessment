@@ -1,0 +1,110 @@
+{
+  "uid" : "e1b561ae3d0454ec",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "2daa17cbed6b471565d44ba10a617712",
+  "time" : {
+    "start" : 1661764268696,
+    "stop" : 1661764268752,
+    "duration" : 56
+  },
+  "status" : "broken",
+  "statusMessage" : "'java.lang.String com.fasterxml.jackson.databind.util.BeanUtil.okNameForSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod, boolean)'",
+  "statusTrace" : "java.lang.NoSuchMethodError: 'java.lang.String com.fasterxml.jackson.databind.util.BeanUtil.okNameForSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod, boolean)'\r\n\tat com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector.findNameForDeserialization(JaxbAnnotationIntrospector.java:1203)\r\n\tat com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair.findNameForDeserialization(AnnotationIntrospectorPair.java:641)\r\n\tat com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addSetterMethod(POJOPropertiesCollector.java:535)\r\n\tat com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods(POJOPropertiesCollector.java:467)\r\n\tat com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collect(POJOPropertiesCollector.java:233)\r\n\tat com.fasterxml.jackson.databind.introspect.BasicClassIntrospector.collectProperties(BasicClassIntrospector.java:142)\r\n\tat com.fasterxml.jackson.databind.introspect.BasicClassIntrospector.forSerialization(BasicClassIntrospector.java:68)\r\n\tat com.fasterxml.jackson.databind.introspect.BasicClassIntrospector.forSerialization(BasicClassIntrospector.java:11)\r\n\tat com.fasterxml.jackson.databind.SerializationConfig.introspect(SerializationConfig.java:490)\r\n\tat com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer(BeanSerializerFactory.java:133)\r\n\tat com.fasterxml.jackson.databind.SerializerProvider._createUntypedSerializer(SerializerProvider.java:873)\r\n\tat com.fasterxml.jackson.databind.SerializerProvider._createAndCacheUntypedSerializer(SerializerProvider.java:833)\r\n\tat com.fasterxml.jackson.databind.SerializerProvider.findValueSerializer(SerializerProvider.java:387)\r\n\tat com.fasterxml.jackson.databind.SerializerProvider.findTypedValueSerializer(SerializerProvider.java:478)\r\n\tat com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:97)\r\n\tat com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:1819)\r\n\tat com.fasterxml.jackson.databind.ObjectMapper$writeValue$0.call(Unknown Source)\r\n\tat io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:53)\r\n\tat io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)\r\n\tat io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)\r\n\tat io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:196)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\r\n\tat org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:151)\r\n\tat org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)\r\n\tat io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:141)\r\n\tat io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)\r\n\tat io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:750)\r\n\tat com.scripted.api.RestAssuredWrapper.CreateRequest(RestAssuredWrapper.java:101)\r\n\tat com.scripted.apistepdefs.stepdefinitions.api_json_request_in_something(stepdefinitions.java:113)\r\n\tat ✽.I send a \"Put\" Request with \"SamplePUTApi\" and \"PutApiJsonReq\"(file:Features/Webservices/SampleAllRestApi.feature:23)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1661764264742,
+      "stop" : 1661764264913,
+      "duration" : 171
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1661764270043,
+      "stop" : 1661764270245,
+      "duration" : 202
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SkJavaConsumerDirect-CodeClenUp"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.scripted.runners.APITestRunner"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "11612@E900DTRV.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Sample PUT method API test\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Sample GET method API test\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1b561ae3d0454ec.json",
+  "parameterValues" : [ "\"Sample PUT method API test\"", "\"Sample GET method API test\"" ]
+}

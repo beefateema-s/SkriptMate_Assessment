@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TAF-Scripting" />
+        <module name="TAF-Mobile" />
+        <module name="TAF-Web" />
+        <module name="TAF-Accessibility" />
+        <module name="TAF-GenericUtility" />
+        <module name="TAF-SelfHealing" />
+        <module name="TAF-MicroService" />
+        <module name="TAF-WebServices" />
+        <module name="TAF-ClientPerf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TAF-Reporting" target="1.8" />
+      <module name="TAF-UILayout" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

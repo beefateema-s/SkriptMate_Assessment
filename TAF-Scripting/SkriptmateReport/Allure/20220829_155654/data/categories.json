@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while trying to create requestjava.lang.IllegalArgumentException: Base URI cannot be null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "1c6368815de9a63",
+        "parentUid" : "1c83fe724f0b5c5b7013dc0e116265be",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661768813165,
+          "stop" : 1661768814202,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "9b33ddbbb47a6c2c",
+        "parentUid" : "1c83fe724f0b5c5b7013dc0e116265be",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661768813405,
+          "stop" : 1661768814067,
+          "duration" : 662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c83fe724f0b5c5b7013dc0e116265be"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

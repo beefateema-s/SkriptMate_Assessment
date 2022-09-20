@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error in validating the response, Exception :io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "35cb70b0c8562c71",
+        "parentUid" : "524928a6df9cd2bead207e00c051e46f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663067408232,
+          "stop" : 1663067411680,
+          "duration" : 3448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample GET method API test\"", "\"Running api test\"" ]
+      }, {
+        "name" : "Sample GET method API test",
+        "uid" : "fce69bf48f760b7e",
+        "parentUid" : "524928a6df9cd2bead207e00c051e46f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663067408506,
+          "stop" : 1663067411436,
+          "duration" : 2930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "524928a6df9cd2bead207e00c051e46f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

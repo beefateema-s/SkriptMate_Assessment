@@ -1,0 +1,191 @@
+{
+  "uid" : "c9b33df0cda740b4",
+  "name" : "Sample GET method API test",
+  "fullName" : "Running all api tests: Sample GET method API test",
+  "historyId" : "5f82a44be93e1955d211153749adc747",
+  "time" : {
+    "start" : 1663051479688,
+    "stop" : 1663051482943,
+    "duration" : 3255
+  },
+  "status" : "failed",
+  "statusMessage" : "Mismatch in the response - JsonPath : page expected:<2> but was:<1>",
+  "statusTrace" : "junit.framework.AssertionFailedError: Mismatch in the response - JsonPath : page expected:<2> but was:<1>\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat com.scripted.api.RestAssuredWrapper.valJsonResponseVal(RestAssuredWrapper.java:308)\r\n\tat com.scripted.apistepdefs.stepdefinitions.the_response_should_contain(stepdefinitions.java:186)\r\n\tat ✽.the response should contain:(file:Features/Webservices/SampleAllRestApi.feature:40)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1663051479688,
+      "stop" : 1663051480337,
+      "duration" : 649
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Mismatch in the response - JsonPath : page expected:<2> but was:<1>",
+    "statusTrace" : "junit.framework.AssertionFailedError: Mismatch in the response - JsonPath : page expected:<2> but was:<1>\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat com.scripted.api.RestAssuredWrapper.valJsonResponseVal(RestAssuredWrapper.java:308)\r\n\tat com.scripted.apistepdefs.stepdefinitions.the_response_should_contain(stepdefinitions.java:186)\r\n\tat ✽.the response should contain:(file:Features/Webservices/SampleAllRestApi.feature:40)\r\n",
+    "steps" : [ {
+      "name" : "Given  I have sample \"Get\" API",
+      "time" : {
+        "start" : 1663051480337,
+        "stop" : 1663051480337,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send a \"Get\" Request with \"SampleGETApi2\" properties with query parameters",
+      "time" : {
+        "start" : 1663051480337,
+        "stop" : 1663051482426,
+        "duration" : 2089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should get response code 200",
+      "time" : {
+        "start" : 1663051482426,
+        "stop" : 1663051482426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  the response should contain:",
+      "time" : {
+        "start" : 1663051482426,
+        "stop" : 1663051482928,
+        "duration" : 502
+      },
+      "status" : "failed",
+      "statusMessage" : "Mismatch in the response - JsonPath : page expected:<2> but was:<1>",
+      "statusTrace" : "junit.framework.AssertionFailedError: Mismatch in the response - JsonPath : page expected:<2> but was:<1>\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat com.scripted.api.RestAssuredWrapper.valJsonResponseVal(RestAssuredWrapper.java:308)\r\n\tat com.scripted.apistepdefs.stepdefinitions.the_response_should_contain(stepdefinitions.java:186)\r\n\tat ✽.the response should contain:(file:Features/Webservices/SampleAllRestApi.feature:40)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac512f523372db5b",
+        "name" : "Data table",
+        "source" : "ac512f523372db5b.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepdefinitions.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1663051482928,
+      "stop" : 1663051482943,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4b7c16d49e81b01",
+      "name" : "Screenshot",
+      "source" : "d4b7c16d49e81b01.txt",
+      "type" : "text/plain",
+      "size" : 996
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TestGet2"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "7652@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Running all api tests"
+  }, {
+    "name" : "story",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "package",
+    "value" : "Features.Webservices.Running all api tests"
+  }, {
+    "name" : "suite",
+    "value" : "Running all api tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample GET method API test"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Webservices/SampleAllRestApi.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "TestGet2" ]
+  },
+  "source" : "c9b33df0cda740b4.json",
+  "parameterValues" : [ ]
+}

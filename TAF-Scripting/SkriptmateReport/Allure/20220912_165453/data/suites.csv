@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Sep 12 16:53:50 IST 2022","Mon Sep 12 16:54:52 IST 2022","62093","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""
+"failed","Mon Sep 12 16:53:51 IST 2022","Mon Sep 12 16:54:52 IST 2022","61568","","Unsuccessful Login","","User is unable to login successfully","","User is unable to login successfully",""

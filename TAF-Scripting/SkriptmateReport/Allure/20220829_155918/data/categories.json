@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error in validating the response, Exception :java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "ee98ffabce8794a6",
+        "parentUid" : "98aa6b54f595632669adaf523deddde6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661768953468,
+          "stop" : 1661768957891,
+          "duration" : 4423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "fcc1cceb7ef2159c",
+        "parentUid" : "98aa6b54f595632669adaf523deddde6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661768953741,
+          "stop" : 1661768957789,
+          "duration" : 4048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98aa6b54f595632669adaf523deddde6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

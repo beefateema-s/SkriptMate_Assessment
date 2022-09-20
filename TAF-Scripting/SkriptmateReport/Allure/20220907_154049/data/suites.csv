@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 07 15:40:12 IST 2022","Wed Sep 07 15:40:49 IST 2022","37136","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""
+"passed","Wed Sep 07 15:40:12 IST 2022","Wed Sep 07 15:40:49 IST 2022","37116","","Unsuccessful Login","","User is unable to login successfully","","User is unable to login successfully",""
+"passed","Wed Sep 07 15:37:31 IST 2022","Wed Sep 07 15:40:12 IST 2022","160247","","Successful Purchase","","User is able to purchase items successfully","","User is able to purchase items successfully",""
+"passed","Wed Sep 07 15:37:31 IST 2022","Wed Sep 07 15:40:12 IST 2022","160801","Default Suite","SkJavaConsumerDirect-CodeClenUp","com.scripted.runners.WebTestRunner","com.scripted.runners.WebTestRunner","runScenario","Runs Cucumber Scenarios",""

@@ -1,0 +1,42 @@
+{
+  "c61743e1e2b1191c4dae1c125bf36b71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "659a8dd5144a28d5",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"com.scripted.Pages.Common.LoginPage.launchSauceUrl()\" because \"this.login\" is null",
+      "time" : {
+        "start" : 1661858102131,
+        "stop" : 1661858102161,
+        "duration" : 30
+      }
+    } ]
+  },
+  "61181b812e48124e96e27f436c0f80f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8dfba7ade9f6ebc",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"com.scripted.Pages.Common.LoginPage.launchSauceUrl()\" because \"this.login\" is null",
+      "time" : {
+        "start" : 1661858101832,
+        "stop" : 1661858102271,
+        "duration" : 439
+      }
+    } ]
+  }
+}

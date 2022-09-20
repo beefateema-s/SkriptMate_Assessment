@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "7c527d98734e5cdd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663067657260,
+      "stop" : 1663067659694,
+      "duration" : 2434
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "\"Sample GET method API test\"", "\"Running api test\"" ]
+  }, {
+    "name" : "Running api test",
+    "children" : [ {
+      "name" : "Sample GET method API test",
+      "children" : [ {
+        "name" : "Sample GET method API test",
+        "uid" : "198b4496e3011ad7",
+        "parentUid" : "8e8289d354ebd387ed5358ccb776b628",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663067657540,
+          "stop" : 1663067659593,
+          "duration" : 2053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e8289d354ebd387ed5358ccb776b628"
+    } ],
+    "uid" : "ee9612ff70ff9b2d00b893eac7e3aa49"
+  } ]
+}

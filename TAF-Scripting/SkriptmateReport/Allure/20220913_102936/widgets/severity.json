@@ -1,0 +1,31 @@
+[ {
+  "uid" : "944f23a8e9b56b32",
+  "name" : "User is unable to login successfully",
+  "time" : {
+    "start" : 1663045099088,
+    "stop" : 1663045140622,
+    "duration" : 41534
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b5e5b67dbecb073",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1663045140876,
+    "stop" : 1663045176147,
+    "duration" : 35271
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53ed1956dbc58b25",
+  "name" : "User is unable to login successfully",
+  "time" : {
+    "start" : 1663045140876,
+    "stop" : 1663045176131,
+    "duration" : 35255
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

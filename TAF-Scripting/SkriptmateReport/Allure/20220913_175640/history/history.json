@@ -1,0 +1,42 @@
+{
+  "4e233408d1f33b885c8864210dbc5ccc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b5828e0b05e83ee",
+      "status" : "broken",
+      "statusDetails" : "class java.util.ArrayList cannot be cast to class java.lang.String (java.util.ArrayList and java.lang.String are in module java.base of loader 'bootstrap')",
+      "time" : {
+        "start" : 1663071997335,
+        "stop" : 1663071999837,
+        "duration" : 2502
+      }
+    } ]
+  },
+  "6c90e6d7814a34ccaa8f2670d5a07833" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "867de4f5ff4e40c5",
+      "status" : "broken",
+      "statusDetails" : "class java.util.ArrayList cannot be cast to class java.lang.String (java.util.ArrayList and java.lang.String are in module java.base of loader 'bootstrap')",
+      "time" : {
+        "start" : 1663071997056,
+        "stop" : 1663071999946,
+        "duration" : 2890
+      }
+    } ]
+  }
+}

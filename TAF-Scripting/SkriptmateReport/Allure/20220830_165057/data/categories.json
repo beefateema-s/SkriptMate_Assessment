@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for com.scripted.web.WebWaitHelper$1@37df14d1 (tried for 30 second(s) with 300 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'E900DTRV', ip: '10.5.20.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "c6150ac3bf25b885",
+        "parentUid" : "7512e9714bbd9f620e5136eb09cce120",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661858411741,
+          "stop" : 1661858457373,
+          "duration" : 45632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Simple Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "2b9baac4133211dd",
+        "parentUid" : "7512e9714bbd9f620e5136eb09cce120",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661858412031,
+          "stop" : 1661858457263,
+          "duration" : 45232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret_sauce", "standard_user" ]
+      } ],
+      "uid" : "7512e9714bbd9f620e5136eb09cce120"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

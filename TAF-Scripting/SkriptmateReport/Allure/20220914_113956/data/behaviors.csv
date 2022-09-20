@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Running all api tests","Sample DELETE method API test","0","0","1","0","0"
+"","","","0","0","5","0","0"
+"","Running all api tests","Sample GET method API test with query parameters","0","0","1","0","0"
+"","Running all api tests","Sample PUT method API test","0","0","1","0","0"
+"","Running all api tests","Sample GET method API test","0","0","1","0","0"
+"","Running all api tests","Sample POST method API test","0","0","1","0","0"

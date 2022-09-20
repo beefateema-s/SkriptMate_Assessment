@@ -1,0 +1,232 @@
+{
+  "38fa9e59dff4ba013cac926af88077e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d6d78413ca56283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575875839,
+        "stop" : 1663575876866,
+        "duration" : 1027
+      }
+    } ]
+  },
+  "b89fd14ac4ecdaceb385521e20b89a37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcf3cc86d7ea3f21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575876878,
+        "stop" : 1663575877412,
+        "duration" : 534
+      }
+    } ]
+  },
+  "893082e91463945b434649cb5860f8dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3e35c746e9207c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575874576,
+        "stop" : 1663575875802,
+        "duration" : 1226
+      }
+    } ]
+  },
+  "4159c848842f8dfb5325fb7b3382bdc4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c41fc28acf5d9872",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575877430,
+        "stop" : 1663575878304,
+        "duration" : 874
+      }
+    } ]
+  },
+  "5f82a44be93e1955d211153749adc747" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc744771dcea8b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575876879,
+        "stop" : 1663575877387,
+        "duration" : 508
+      }
+    } ]
+  },
+  "cfd826b876cd78e12e8a3e8e752f75d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "525fa88dbab0be20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575870466,
+        "stop" : 1663575873198,
+        "duration" : 2732
+      }
+    } ]
+  },
+  "d9f8f4d4a89c1ab94789e1882528e41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fc7c82c1d8e8117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575870708,
+        "stop" : 1663575873101,
+        "duration" : 2393
+      }
+    } ]
+  },
+  "6a41c27ecd232dd1e9d762e84444bdd0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "311444f2474a08bd",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null",
+      "time" : {
+        "start" : 1663575873215,
+        "stop" : 1663575874538,
+        "duration" : 1323
+      }
+    } ]
+  },
+  "48d9b64e4ad3735d02992cdb18da43cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bc7c37846ad9c4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575877429,
+        "stop" : 1663575878328,
+        "duration" : 899
+      }
+    } ]
+  },
+  "ff653c0219f22826ab195c519eed4a5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90fd71917742c5ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575874575,
+        "stop" : 1663575875825,
+        "duration" : 1250
+      }
+    } ]
+  },
+  "9adb34bbd4275179101a5414c727b09c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db06c945dc5025",
+      "status" : "failed",
+      "statusDetails" : "Error in validating the response, Exception :java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null",
+      "time" : {
+        "start" : 1663575873212,
+        "stop" : 1663575874563,
+        "duration" : 1351
+      }
+    } ]
+  },
+  "179810000c1e7eab9a42132ae424d4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0ab03eeb175ec2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663575875840,
+        "stop" : 1663575876845,
+        "duration" : 1005
+      }
+    } ]
+  }
+}

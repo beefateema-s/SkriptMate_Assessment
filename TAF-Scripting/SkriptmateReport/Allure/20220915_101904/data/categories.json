@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "$29.99 does not match with null",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "1366c7753fe9634b",
+        "parentUid" : "46acf9b94df1b90c61db825c9192c1f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663217248709,
+          "stop" : 1663217344536,
+          "duration" : 95827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is able to purchase items successfully\"", "\"Successful Purchase\"" ]
+      }, {
+        "name" : "User is able to purchase items successfully",
+        "uid" : "ed6f06e60ce99030",
+        "parentUid" : "46acf9b94df1b90c61db825c9192c1f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663217248997,
+          "stop" : 1663217344241,
+          "duration" : 95244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Bee", "Fateema", "secret_sauce", "Price (low to high)", "standard_user", "123456" ]
+      } ],
+      "uid" : "46acf9b94df1b90c61db825c9192c1f4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

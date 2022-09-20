@@ -1,0 +1,203 @@
+{
+  "uid" : "2d5895b574499026",
+  "name" : "User is unable to login successfully",
+  "fullName" : "Unsuccessful Login: User is unable to login successfully",
+  "historyId" : "df915310cfd082e61d919e9990fcda53",
+  "time" : {
+    "start" : 1662981831184,
+    "stop" : 1662981892752,
+    "duration" : 61568
+  },
+  "status" : "failed",
+  "statusMessage" : "Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service",
+  "statusTrace" : "junit.framework.AssertionFailedError: Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.Pages.SauceLab.SauceLabLoginPage.validateErrorMessage(SauceLabLoginPage.java:56)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabLoginStepDef.iValidateLoginErrorMessage(SauceLabLoginStepDef.java:33)\r\n\tat ✽.I validate login error message(file:Features/Web/SauceLab/UnsuccessfulLogin.feature:21)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "CommonStepdef.driverSetup()",
+    "time" : {
+      "start" : 1662981831185,
+      "stop" : 1662981852822,
+      "duration" : 21637
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service",
+    "statusTrace" : "junit.framework.AssertionFailedError: Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.Pages.SauceLab.SauceLabLoginPage.validateErrorMessage(SauceLabLoginPage.java:56)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabLoginStepDef.iValidateLoginErrorMessage(SauceLabLoginStepDef.java:33)\r\n\tat ✽.I validate login error message(file:Features/Web/SauceLab/UnsuccessfulLogin.feature:21)\r\n",
+    "steps" : [ {
+      "name" : "Given  I launched sauce lab application",
+      "time" : {
+        "start" : 1662981852824,
+        "stop" : 1662981891724,
+        "duration" : 38900
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I enter username",
+      "time" : {
+        "start" : 1662981891725,
+        "stop" : 1662981891956,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  I enter password",
+      "time" : {
+        "start" : 1662981891956,
+        "stop" : 1662981891956,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I click on sauce lab log in button",
+      "time" : {
+        "start" : 1662981891956,
+        "stop" : 1662981892125,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I validate login error message",
+      "time" : {
+        "start" : 1662981892126,
+        "stop" : 1662981892264,
+        "duration" : 138
+      },
+      "status" : "failed",
+      "statusMessage" : "Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service",
+      "statusTrace" : "junit.framework.AssertionFailedError: Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat com.scripted.web.WebHandlers.compareText(WebHandlers.java:233)\r\n\tat com.scripted.web.WebHandlers.verifyText(WebHandlers.java:206)\r\n\tat com.scripted.Pages.SauceLab.SauceLabLoginPage.validateErrorMessage(SauceLabLoginPage.java:56)\r\n\tat com.scripted.WebStepDef.SauceLab.SauceLabLoginStepDef.iValidateLoginErrorMessage(SauceLabLoginStepDef.java:33)\r\n\tat ✽.I validate login error message(file:Features/Web/SauceLab/UnsuccessfulLogin.feature:21)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "CommonStepdef.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1662981892265,
+      "stop" : 1662981892751,
+      "duration" : 486
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d094813370d0fdcd",
+      "name" : "Screenshot",
+      "source" : "d094813370d0fdcd.png",
+      "type" : "image/png",
+      "size" : 52387
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test-3"
+  }, {
+    "name" : "tag",
+    "value" : "Web"
+  }, {
+    "name" : "host",
+    "value" : "E900DTRV"
+  }, {
+    "name" : "thread",
+    "value" : "10004@E900DTRV.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Unsuccessful Login"
+  }, {
+    "name" : "story",
+    "value" : "User is unable to login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Features.Web.SauceLab.Unsuccessful Login"
+  }, {
+    "name" : "suite",
+    "value" : "Unsuccessful Login"
+  }, {
+    "name" : "testClass",
+    "value" : "User is unable to login successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:Features/Web/SauceLab/UnsuccessfulLogin.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Test-3", "Web" ]
+  },
+  "source" : "2d5895b574499026.json",
+  "parameterValues" : [ ]
+}

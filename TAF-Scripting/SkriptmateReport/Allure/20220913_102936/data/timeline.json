@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "5692@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "User is unable to login successfully",
+        "uid" : "53ed1956dbc58b25",
+        "parentUid" : "fbc4c343ae799f285f6e47279021d9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663045140876,
+          "stop" : 1663045176131,
+          "duration" : 35255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "locked_out_user" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "b5e5b67dbecb073",
+        "parentUid" : "fbc4c343ae799f285f6e47279021d9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663045140876,
+          "stop" : 1663045176147,
+          "duration" : 35271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "3309e4759157247b",
+        "parentUid" : "fbc4c343ae799f285f6e47279021d9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663045098703,
+          "stop" : 1663045140854,
+          "duration" : 42151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "944f23a8e9b56b32",
+        "parentUid" : "fbc4c343ae799f285f6e47279021d9f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663045099088,
+          "stop" : 1663045140622,
+          "duration" : 41534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "secret", "standard_user" ]
+      } ],
+      "uid" : "fbc4c343ae799f285f6e47279021d9f7"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "157dc66103fb4754",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1662462776103,
+    "stop" : 1662462922684,
+    "duration" : 146581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55913034db16c538",
+  "name" : "User is able to purchase items successfully",
+  "time" : {
+    "start" : 1662462776424,
+    "stop" : 1662462922570,
+    "duration" : 146146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

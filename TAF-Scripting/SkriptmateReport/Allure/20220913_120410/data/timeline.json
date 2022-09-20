@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E900DTRV",
+    "children" : [ {
+      "name" : "17380@E900DTRV.main(1)",
+      "children" : [ {
+        "name" : "Sample PUT method API test",
+        "uid" : "ad74e7b655325dc1",
+        "parentUid" : "45146da7bc718fa7a937ad94c6d20ed8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663050847703,
+          "stop" : 1663050850742,
+          "duration" : 3039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "a643a503c328668e",
+        "parentUid" : "45146da7bc718fa7a937ad94c6d20ed8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663050847434,
+          "stop" : 1663050850858,
+          "duration" : 3424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample PUT method API test\"", "\"Running all api tests\"" ]
+      } ],
+      "uid" : "45146da7bc718fa7a937ad94c6d20ed8"
+    } ],
+    "uid" : "f376d06896add05e40c9b5a6eb4595bc"
+  } ]
+}

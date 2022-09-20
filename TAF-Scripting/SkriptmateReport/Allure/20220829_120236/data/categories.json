@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error while set the Json body : java.nio.file.NoSuchFileException: C:\\Users\\188680\\Downloads\\SkJavaConsumerDirect-CodeClenUp\\SkJavaConsumerDirect-CodeClenUp\\TAF-Scripting\\src\\main\\resources\\WebServices\\APIJsonRequest\\PostApiJsonReq.txt",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "534508330a3315f",
+        "parentUid" : "693961509e44dc16ff4b4291a2991187",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661754754462,
+          "stop" : 1661754756095,
+          "duration" : 1633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Sample POST method API test\"", "\"Sample GET method API test\"" ]
+      }, {
+        "name" : "Sample POST method API test",
+        "uid" : "4b55dae831896ed0",
+        "parentUid" : "693961509e44dc16ff4b4291a2991187",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661754754710,
+          "stop" : 1661754755951,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "693961509e44dc16ff4b4291a2991187"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

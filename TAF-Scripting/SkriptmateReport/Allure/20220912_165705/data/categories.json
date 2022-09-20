@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Epic sadface: Password is required does not match with Epic sadface: Username and password do not match any user in this service",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "aad021316f7bcb39",
+        "parentUid" : "cf1465c4e1777b3dca91ead6da5fb65e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662981983147,
+          "stop" : 1662982025244,
+          "duration" : 42097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"User is unable to login successfully\"", "\"Unsuccessful Login\"" ]
+      }, {
+        "name" : "User is unable to login successfully",
+        "uid" : "1d9c9562c5c0e113",
+        "parentUid" : "cf1465c4e1777b3dca91ead6da5fb65e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662981983462,
+          "stop" : 1662982025124,
+          "duration" : 41662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf1465c4e1777b3dca91ead6da5fb65e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
